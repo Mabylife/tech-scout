@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T17:22:42Z",
+  "fetched_at": "2026-11-12T18:05:40Z",
   "parts": [
     {
       "key": "reddit_unixporn",
@@ -633,21 +633,6 @@
           }
         },
         {
-          "title": "Am I dumb or is the wiki really bad",
-          "url": "https://www.reddit.com/r/hyprland/comments/1xtyoo9/am_i_dumb_or_is_the_wiki_really_bad/",
-          "description": "I used Hyprland when I had Arch with the old config sintaxis and it was pretty straightforward. I didn't even check the wiki, I just analized the base config and figured it out. Then, when I moved to Gentoo, I changed to Sway and i3 and for those two I had to read the manuals and basically understood everything. I've been wanting to try Hyprland now but omg, I know nothing about Lua and I feel pretty dumb reading the wiki, like, I really don't know how to set up things. I tried to set the binds …",
-          "published_at": "2026-11-12T00:38:33Z",
-          "tags": [
-            "reddit:hyprland"
-          ],
-          "source": {
-            "name": "reddit_hyprland",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xtyoo9/am_i_dumb_or_is_the_wiki_really_bad/"
-          }
-        },
-        {
           "title": "My functional, but delightful, island bar",
           "url": "https://v.redd.it/hgk85benq41i1",
           "description": "My current Hyprland setup. The bar, launcher, notifications and lock screen all come from a custom shell toolkit (like quickshell) that I've made for myself. and the island at the top grows into whatever's happening: volume, a skipped song, a notification, the launcher. The goal was something cool and fun, but that prioritized functionality. There's a ton of legit / amazing rices out there, but most you wouldn't necessarily use as a daily driver, so I wanted to find something that I'd actually u…",
@@ -660,6 +645,21 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xu63wz/my_functional_but_delightful_island_bar/"
+          }
+        },
+        {
+          "title": "Am I dumb or is the wiki really bad",
+          "url": "https://www.reddit.com/r/hyprland/comments/1xtyoo9/am_i_dumb_or_is_the_wiki_really_bad/",
+          "description": "I used Hyprland when I had Arch with the old config sintaxis and it was pretty straightforward. I didn't even check the wiki, I just analized the base config and figured it out. Then, when I moved to Gentoo, I changed to Sway and i3 and for those two I had to read the manuals and basically understood everything. I've been wanting to try Hyprland now but omg, I know nothing about Lua and I feel pretty dumb reading the wiki, like, I really don't know how to set up things. I tried to set the binds …",
+          "published_at": "2026-11-12T00:38:33Z",
+          "tags": [
+            "reddit:hyprland"
+          ],
+          "source": {
+            "name": "reddit_hyprland",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xtyoo9/am_i_dumb_or_is_the_wiki_really_bad/"
           }
         },
         {
@@ -699,21 +699,6 @@
       "fetched": 6,
       "items": [
         {
-          "title": "I made a VS Code extension to preview Vue components in Nuxt/Vite projects",
-          "url": "https://v.redd.it/bqg2nzohfw0i1",
-          "description": "I made this because I spend a lot of time editing components and couldn't find a way to quickly preview them in isolation. Navigating through the app to the right page/state to view the component was becoming a headache and there wasn't any extension that would use the project's config and have zooming/screen size options.\n What more features would be nice to add to this? Here's the link to the extension:\n https://marketplace.visualstudio.com/items?itemName=timeful.timeful-studio-vscode",
-          "published_at": "2026-11-11T03:06:00Z",
-          "tags": [
-            "reddit:vuejs"
-          ],
-          "source": {
-            "name": "reddit_vuejs",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/vuejs/comments/1xt6tgz/i_made_a_vs_code_extension_to_preview_vue/"
-          }
-        },
-        {
           "title": "Ding: a spring-physics toast library for Vue 3 and Nuxt (Open Source, MIT)",
           "url": "https://v.redd.it/c9g7eatpb61i1",
           "description": "Added Vue support a while back and just shipped 0.0.5, so sharing here too. No dependencies.\n The video is a bit old, so it doesn't show the newer filled toasts and playground.\n https://github.com/YusufCeng1z/ding",
@@ -726,6 +711,21 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/vuejs/comments/1xubdb0/ding_a_springphysics_toast_library_for_vue_3_and/"
+          }
+        },
+        {
+          "title": "I made a VS Code extension to preview Vue components in Nuxt/Vite projects",
+          "url": "https://v.redd.it/bqg2nzohfw0i1",
+          "description": "I made this because I spend a lot of time editing components and couldn't find a way to quickly preview them in isolation. Navigating through the app to the right page/state to view the component was becoming a headache and there wasn't any extension that would use the project's config and have zooming/screen size options.\n What more features would be nice to add to this? Here's the link to the extension:\n https://marketplace.visualstudio.com/items?itemName=timeful.timeful-studio-vscode",
+          "published_at": "2026-11-11T03:06:00Z",
+          "tags": [
+            "reddit:vuejs"
+          ],
+          "source": {
+            "name": "reddit_vuejs",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/vuejs/comments/1xt6tgz/i_made_a_vs_code_extension_to_preview_vue/"
           }
         },
         {
@@ -960,6 +960,21 @@
           }
         },
         {
+          "title": "Walmart drives",
+          "url": "https://i.redd.it/7atq8j35m31i1.jpeg",
+          "description": "Scored a good deal on a 14tb drive, shipped and sold by Walmart. Went to out of stock after my order processed? Will it ship, or should I cancel it and keep looking?",
+          "published_at": "2026-11-12T03:10:24Z",
+          "tags": [
+            "reddit:selfhosted"
+          ],
+          "source": {
+            "name": "reddit_selfhosted",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xu1umh/walmart_drives/"
+          }
+        },
+        {
           "title": "How do you handle secrets across your self-hosted stuff?",
           "url": "https://www.reddit.com/r/selfhosted/comments/1xqu3fa/how_do_you_handle_secrets_across_your_selfhosted/",
           "description": "My secrets have slowly turned into a mess. There are .env files on a few different hosts, some passwords pasted straight into compose files, tokens sitting in CI variables, and a password manager note I'm not proud of. Every time I rotate something I forget at least one place.\n I've looked at the usual options. SOPS with age seems nice but key distribution and CI feel fiddly. Vault or OpenBao feel like a lot to run at home, especially the unseal part after a reboot. Infisical looks good but it's…",
@@ -987,21 +1002,6 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xqylfx/domain_structure_homeexamplecom_or_examplecom/"
-          }
-        },
-        {
-          "title": "Walmart drives",
-          "url": "https://i.redd.it/7atq8j35m31i1.jpeg",
-          "description": "Scored a good deal on a 14tb drive, shipped and sold by Walmart. Went to out of stock after my order processed? Will it ship, or should I cancel it and keep looking?",
-          "published_at": "2026-11-12T03:10:24Z",
-          "tags": [
-            "reddit:selfhosted"
-          ],
-          "source": {
-            "name": "reddit_selfhosted",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xu1umh/walmart_drives/"
           }
         },
         {
@@ -1191,10 +1191,10 @@
           }
         },
         {
-          "title": "Fable 5.2 just landed.",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/",
-          "description": "Still no newsroom post from Anthropic though.\n Edit: Just kidding, it finally popped up:\n https://www.anthropic.com/claude-fable-and-mythos-5-2\n Edit 2: Holy shit, I got *three* resets. Apparently just for the Fable meter.",
-          "published_at": "2026-11-09T18:59:57Z",
+          "title": "HUGE Fable 5.2 Issue",
+          "url": "https://i.redd.it/q4cumo6aip0i1.jpeg",
+          "description": "It’s not telling me to go to sleep every few hours like Opus used to.",
+          "published_at": "2026-11-10T03:43:50Z",
           "tags": [
             "reddit:ClaudeAI"
           ],
@@ -1202,7 +1202,7 @@
             "name": "reddit_ClaudeAI",
             "score": null,
             "comments": null,
-            "discussion_url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/"
+            "discussion_url": "https://www.reddit.com/r/ClaudeAI/comments/1xscs0g/huge_fable_52_issue/"
           }
         },
         {
@@ -1221,10 +1221,10 @@
           }
         },
         {
-          "title": "HUGE Fable 5.2 Issue",
-          "url": "https://i.redd.it/q4cumo6aip0i1.jpeg",
-          "description": "It’s not telling me to go to sleep every few hours like Opus used to.",
-          "published_at": "2026-11-10T03:43:50Z",
+          "title": "Fable 5.2 just landed.",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/",
+          "description": "Still no newsroom post from Anthropic though.\n Edit: Just kidding, it finally popped up:\n https://www.anthropic.com/claude-fable-and-mythos-5-2\n Edit 2: Holy shit, I got *three* resets. Apparently just for the Fable meter.",
+          "published_at": "2026-11-09T18:59:57Z",
           "tags": [
             "reddit:ClaudeAI"
           ],
@@ -1232,7 +1232,7 @@
             "name": "reddit_ClaudeAI",
             "score": null,
             "comments": null,
-            "discussion_url": "https://www.reddit.com/r/ClaudeAI/comments/1xscs0g/huge_fable_52_issue/"
+            "discussion_url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/"
           }
         },
         {
@@ -1362,21 +1362,6 @@
           }
         },
         {
-          "title": "Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI.",
-          "url": "https://en.gamegpu.com/news/zhelezo/polzovateli-nachali-massovo-skupat-videokarty-rtx-5060-ti-16gb-radi-ii",
-          "description": "Oh look, thats us!",
-          "published_at": "2026-11-08T14:45:22Z",
-          "tags": [
-            "reddit:LocalLLaMA"
-          ],
-          "source": {
-            "name": "reddit_LocalLLaMA",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr01bj/users_have_started_buying_rtx_5060_ti_16gb/"
-          }
-        },
-        {
           "title": "Nvidia's Jensen Huang Resigns as CEO, Colette Kress Named Interim",
           "url": "https://www.bloomberg.com/news/live-blog/2026-11-11/nvidia-turmoil-board-to-weigh-ceo-jensen-huang-future-over-alleged-affairs",
           "description": "",
@@ -1389,6 +1374,21 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xudeev/nvidias_jensen_huang_resigns_as_ceo_colette_kress/"
+          }
+        },
+        {
+          "title": "Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI.",
+          "url": "https://en.gamegpu.com/news/zhelezo/polzovateli-nachali-massovo-skupat-videokarty-rtx-5060-ti-16gb-radi-ii",
+          "description": "Oh look, thats us!",
+          "published_at": "2026-11-08T14:45:22Z",
+          "tags": [
+            "reddit:LocalLLaMA"
+          ],
+          "source": {
+            "name": "reddit_LocalLLaMA",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr01bj/users_have_started_buying_rtx_5060_ti_16gb/"
           }
         },
         {
@@ -1826,7 +1826,7 @@
         {
           "title": "Apple launches $50 'intelligence usage packs' for select AI features",
           "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/",
-          "description": "Posting this because it's the first time Apple has actually charged for AI usage, and the details matter more than the headline. It's $49.99 as a one-time purchase, not a subscription, and right now you can only buy it inside Logic Pro, under Intelligence Features > Show Usage > Buy More Usage. It only kicks in after you burn through your monthly allowance, which is 50 image generations, 250 shapes, 50 presentations, or speaker notes for 700 slides if you only use one feature.\n Two things that j…",
+          "description": "Its the first time Apple has actually charged for AI usage, and the details matter more than the headline. It's $49.99 as a one-time purchase, not a subscription, and right now you can only buy it inside Logic Pro, under Intelligence Features > Show Usage > Buy More Usage. It only kicks in after you burn through your monthly allowance, which is 50 image generations, 250 shapes, 50 presentations, or speaker notes for 700 slides if you only use one feature.\n Two things that jumped out at me. One, …",
           "published_at": "2026-11-09T22:49:37Z",
           "tags": [
             "reddit:apple"
@@ -1836,6 +1836,21 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/apple/comments/1xs6dj4/apple_launches_50_intelligence_usage_packs_for/"
+          }
+        },
+        {
+          "title": "President Trump calls on Tim Cook to be next NVIDIA CEO",
+          "url": "https://9to5mac.com/2026/11/12/president-trump-calls-on-tim-cook-to-be-next-nvidia-ceo/",
+          "description": "",
+          "published_at": "2026-11-12T15:51:19Z",
+          "tags": [
+            "reddit:apple"
+          ],
+          "source": {
+            "name": "reddit_apple",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/apple/comments/1xugafn/president_trump_calls_on_tim_cook_to_be_next/"
           }
         },
         {
@@ -1869,36 +1884,6 @@
           }
         },
         {
-          "title": "Swipeblocked: the phrases your iPhone won't suggest",
-          "url": "https://swipeblocked.com",
-          "description": "Apple doesn't publish the list or say how it's chosen. This site decodes it from the keyboard's own data files, as of iOS 27.0.",
-          "published_at": "2026-11-06T15:40:49Z",
-          "tags": [
-            "reddit:apple"
-          ],
-          "source": {
-            "name": "reddit_apple",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/apple/comments/1xpfwze/swipeblocked_the_phrases_your_iphone_wont_suggest/"
-          }
-        },
-        {
-          "title": "President Trump calls on Tim Cook to be next NVIDIA CEO",
-          "url": "https://9to5mac.com/2026/11/12/president-trump-calls-on-tim-cook-to-be-next-nvidia-ceo/",
-          "description": "",
-          "published_at": "2026-11-12T15:51:19Z",
-          "tags": [
-            "reddit:apple"
-          ],
-          "source": {
-            "name": "reddit_apple",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/apple/comments/1xugafn/president_trump_calls_on_tim_cook_to_be_next/"
-          }
-        },
-        {
           "title": "Apple's Johny Srouji Eyed to Replace Nvidia CEO Jensen Huang",
           "url": "https://www.macrumors.com/2026/11/12/johny-srouji-eyed-as-potential-nvidia-ceo/",
           "description": "",
@@ -1911,6 +1896,21 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/apple/comments/1xucf02/apples_johny_srouji_eyed_to_replace_nvidia_ceo/"
+          }
+        },
+        {
+          "title": "Swipeblocked: the phrases your iPhone won't suggest",
+          "url": "https://swipeblocked.com",
+          "description": "Apple doesn't publish the list or say how it's chosen. This site decodes it from the keyboard's own data files, as of iOS 27.0.",
+          "published_at": "2026-11-06T15:40:49Z",
+          "tags": [
+            "reddit:apple"
+          ],
+          "source": {
+            "name": "reddit_apple",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/apple/comments/1xpfwze/swipeblocked_the_phrases_your_iphone_wont_suggest/"
           }
         },
         {
