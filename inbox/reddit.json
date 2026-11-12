@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T16:55:21Z",
+  "fetched_at": "2026-11-12T17:15:50Z",
   "parts": [
     {
       "key": "reddit_unixporn",
@@ -111,21 +111,6 @@
           }
         },
         {
-          "title": "[Hyprland] Overworld: my desktop is a Minecraft world. Workspaces are the hotbar, battery is hearts, and closing a window mines it",
-          "url": "https://v.redd.it/fkwjeksxd70i1",
-          "description": "I turned my Hyprland desktop into a Minecraft world. Workspaces are the hotbar, hearts show battery, notifications pop up as advancement toasts, and closing a window plays the block-breaking animation before it goes.\n Repo with install steps and more screenshots: https://github.com/nurasik14/overworld-hyprland\n I'm a first-year CS student and this is my biggest rice so far, so I'd really like feedback on what to fix or add. If you like it, a star on GitHub helps a lot. Full details are in the co…",
-          "published_at": "2026-11-07T14:48:06Z",
-          "tags": [
-            "reddit:unixporn"
-          ],
-          "source": {
-            "name": "reddit_unixporn",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/unixporn/comments/1xq835l/hyprland_overworld_my_desktop_is_a_minecraft/"
-          }
-        },
-        {
           "title": "[NIRI] Resurrecting an Old Laptop",
           "url": "https://www.reddit.com/r/unixporn/comments/1xtui2d/niri_resurrecting_an_old_laptop/",
           "description": "I decided to finally try Wayland and my first pick was Niri, I don't think I need anything else, It gave back life to a struggling old laptop with 4gb of ram, It's working smoothly, no stutters or lag. I love it!\n Wallpapers: Collected over time, Will upload all of them (around 400 wallpapers) once I have some free time. Meanwhile, here are the ones found in this post: 1. First 2. Second 3. Third 4. Forth 5. Fifth 6. Sixth",
@@ -138,6 +123,21 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/unixporn/comments/1xtui2d/niri_resurrecting_an_old_laptop/"
+          }
+        },
+        {
+          "title": "[Hyprland] Overworld: my desktop is a Minecraft world. Workspaces are the hotbar, battery is hearts, and closing a window mines it",
+          "url": "https://v.redd.it/fkwjeksxd70i1",
+          "description": "I turned my Hyprland desktop into a Minecraft world. Workspaces are the hotbar, hearts show battery, notifications pop up as advancement toasts, and closing a window plays the block-breaking animation before it goes.\n Repo with install steps and more screenshots: https://github.com/nurasik14/overworld-hyprland\n I'm a first-year CS student and this is my biggest rice so far, so I'd really like feedback on what to fix or add. If you like it, a star on GitHub helps a lot. Full details are in the co…",
+          "published_at": "2026-11-07T14:48:06Z",
+          "tags": [
+            "reddit:unixporn"
+          ],
+          "source": {
+            "name": "reddit_unixporn",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/unixporn/comments/1xq835l/hyprland_overworld_my_desktop_is_a_minecraft/"
           }
         },
         {
@@ -648,21 +648,6 @@
           }
         },
         {
-          "title": "So are you folks already on lua?",
-          "url": "https://i.redd.it/gfanxhpj600i1.png",
-          "description": "I'm fairly new to hyprland but finally got used to the ecosystem and managed to adapt it to be usable as a daily driver. I started off with dots from JaKooLit, not sure that i can recommend following this path but it worked as a demonstration. Overall too much bells and whistles and config looks like a pile of crap, a pain for an engineer to look at. But i don't mind tinkering and cleaning up.\n Anyways, this where good stuff ends. I already encountered several breaking changes that popped up whe…",
-          "published_at": "2026-11-06T14:53:32Z",
-          "tags": [
-            "reddit:hyprland"
-          ],
-          "source": {
-            "name": "reddit_hyprland",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xpeqsd/so_are_you_folks_already_on_lua/"
-          }
-        },
-        {
           "title": "My functional, but delightful, island bar",
           "url": "https://v.redd.it/hgk85benq41i1",
           "description": "My current Hyprland setup. The bar, launcher, notifications and lock screen all come from a custom shell toolkit (like quickshell) that I've made for myself. and the island at the top grows into whatever's happening: volume, a skipped song, a notification, the launcher. The goal was something cool and fun, but that prioritized functionality. There's a ton of legit / amazing rices out there, but most you wouldn't necessarily use as a daily driver, so I wanted to find something that I'd actually u…",
@@ -675,6 +660,21 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xu63wz/my_functional_but_delightful_island_bar/"
+          }
+        },
+        {
+          "title": "So are you folks already on lua?",
+          "url": "https://i.redd.it/gfanxhpj600i1.png",
+          "description": "I'm fairly new to hyprland but finally got used to the ecosystem and managed to adapt it to be usable as a daily driver. I started off with dots from JaKooLit, not sure that i can recommend following this path but it worked as a demonstration. Overall too much bells and whistles and config looks like a pile of crap, a pain for an engineer to look at. But i don't mind tinkering and cleaning up.\n Anyways, this where good stuff ends. I already encountered several breaking changes that popped up whe…",
+          "published_at": "2026-11-06T14:53:32Z",
+          "tags": [
+            "reddit:hyprland"
+          ],
+          "source": {
+            "name": "reddit_hyprland",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xpeqsd/so_are_you_folks_already_on_lua/"
           }
         },
         {
@@ -1086,21 +1086,6 @@
           }
         },
         {
-          "title": "I built a sailing sim with Claude Code and made the frontier models race each other in it",
-          "url": "https://v.redd.it/j2j2auul010i1",
-          "description": "I built a sailing sim with Claude Code. Claude Code wrote basically all of it (the boat physics, wind, the 3D water and coast, and the setup that lets AI models sail it) while I directed what to build and checked the results.\n How the race works: every 5 secs each model gets the full state of the world (23 raw numbers like heading, speed, wind, where the next mark is etc) and sets its helm and sails. No sailing tips. The sim pauses while it thinks, so slow models aren't punished.\n Opus, GPT-6 As…",
-          "published_at": "2026-11-06T17:22:13Z",
-          "tags": [
-            "reddit:ClaudeAI"
-          ],
-          "source": {
-            "name": "reddit_ClaudeAI",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/ClaudeAI/comments/1xpij9t/i_built_a_sailing_sim_with_claude_code_and_made/"
-          }
-        },
-        {
           "title": "Fable 5.2 maxed its usage to make this video",
           "url": "https://v.redd.it/wq6s4vk1pv0i1",
           "description": "",
@@ -1113,6 +1098,21 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/ClaudeAI/comments/1xt3m47/fable_52_maxed_its_usage_to_make_this_video/"
+          }
+        },
+        {
+          "title": "I built a sailing sim with Claude Code and made the frontier models race each other in it",
+          "url": "https://v.redd.it/j2j2auul010i1",
+          "description": "I built a sailing sim with Claude Code. Claude Code wrote basically all of it (the boat physics, wind, the 3D water and coast, and the setup that lets AI models sail it) while I directed what to build and checked the results.\n How the race works: every 5 secs each model gets the full state of the world (23 raw numbers like heading, speed, wind, where the next mark is etc) and sets its helm and sails. No sailing tips. The sim pauses while it thinks, so slow models aren't punished.\n Opus, GPT-6 As…",
+          "published_at": "2026-11-06T17:22:13Z",
+          "tags": [
+            "reddit:ClaudeAI"
+          ],
+          "source": {
+            "name": "reddit_ClaudeAI",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/ClaudeAI/comments/1xpij9t/i_built_a_sailing_sim_with_claude_code_and_made/"
           }
         },
         {
@@ -1899,6 +1899,21 @@
           }
         },
         {
+          "title": "President Trump calls on Tim Cook to be next NVIDIA CEO",
+          "url": "https://9to5mac.com/2026/11/12/president-trump-calls-on-tim-cook-to-be-next-nvidia-ceo/",
+          "description": "",
+          "published_at": "2026-11-12T15:51:19Z",
+          "tags": [
+            "reddit:apple"
+          ],
+          "source": {
+            "name": "reddit_apple",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/apple/comments/1xugafn/president_trump_calls_on_tim_cook_to_be_next/"
+          }
+        },
+        {
           "title": "Apple Releases New AirPods Firmware",
           "url": "https://forums.macrumors.com/threads/apple-releases-new-airpods-firmware.2494123/",
           "description": "",
@@ -1926,21 +1941,6 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/apple/comments/1xt17hu/eu_to_blacklist_ten_manipulative_online_design/"
-          }
-        },
-        {
-          "title": "Siri AI chief may step down as more Apple departures are rumored",
-          "url": "https://appleinsider.com/articles/26/11/08/siri-ai-chief-may-step-down-as-more-apple-departures-are-rumored",
-          "description": "",
-          "published_at": "2026-11-08T16:26:31Z",
-          "tags": [
-            "reddit:apple"
-          ],
-          "source": {
-            "name": "reddit_apple",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/apple/comments/1xr2cmv/siri_ai_chief_may_step_down_as_more_apple/"
           }
         }
       ]
