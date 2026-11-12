@@ -7,7 +7,9 @@
 
 param(
     [string]$Time = '05:30',
-    [string]$TaskName = 'tech-scout reddit'
+    [string]$TaskName = 'tech-scout reddit',
+    # Re-register the task only, keeping the token stored earlier.
+    [switch]$SkipToken
 )
 
 $ErrorActionPreference = 'Stop'
@@ -19,18 +21,23 @@ $pwsh = (Get-Command pwsh).Source
 # Create the token at https://github.com/settings/personal-access-tokens/new
 #   Repository access: Only select repositories -> Mabylife/tech-scout
 #   Permissions: Contents -> Read and write (nothing else)
-$user = 'tech-scout-rog'
-git -C $repo remote set-url origin "https://$user@github.com/Mabylife/tech-scout.git"
-$token = Read-Host 'Paste the fine-grained token' -MaskInput
-"protocol=https`nhost=github.com`nusername=$user`npassword=$token`n" | git credential approve
-Remove-Variable token
+if (-not $SkipToken) {
+    $user = 'tech-scout-rog'
+    git -C $repo remote set-url origin "https://$user@github.com/Mabylife/tech-scout.git"
+    $token = Read-Host 'Paste the fine-grained token' -MaskInput
+    "protocol=https`nhost=github.com`nusername=$user`npassword=$token`n" | git credential approve
+    Remove-Variable token
 
-git -C $repo push --dry-run
-if ($LASTEXITCODE -ne 0) { throw 'Token check failed: git push --dry-run was rejected.' }
-Write-Host 'Token works.'
+    git -C $repo push --dry-run
+    if ($LASTEXITCODE -ne 0) { throw 'Token check failed: git push --dry-run was rejected.' }
+    Write-Host 'Token works.'
+}
 
 # --- 2. Scheduled task -------------------------------------------------------
-$action = New-ScheduledTaskAction -Execute $pwsh -Argument "-NoProfile -File `"$runner`"" -WorkingDirectory $repo
+# conhost --headless runs the console with no window at all; launching pwsh
+# directly opens an empty Windows Terminal window for the whole run.
+$action = New-ScheduledTaskAction -Execute 'conhost.exe' `
+    -Argument "--headless `"$pwsh`" -NoProfile -NonInteractive -File `"$runner`"" -WorkingDirectory $repo
 $trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday, Thursday -At $Time
 $settings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 15)
 Register-ScheduledTask -TaskName $TaskName -Action $action -Trigger $trigger -Settings $settings `
