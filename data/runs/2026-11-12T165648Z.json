@@ -1,0 +1,2171 @@
+{
+  "generated_at": "2026-11-12T16:56:48Z",
+  "since": "2026-11-12T16:18:24Z",
+  "stats": {
+    "hn_show": {
+      "fetched": 0,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "hn_top": {
+      "fetched": 0,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "lobsters_hottest": {
+      "fetched": 25,
+      "kept": 22,
+      "new": 3,
+      "error": null
+    },
+    "lobsters_newest": {
+      "fetched": 25,
+      "kept": 16,
+      "new": 2,
+      "error": null
+    },
+    "lobsters_linux": {
+      "fetched": 25,
+      "kept": 23,
+      "new": 0,
+      "error": null
+    },
+    "lobsters_web": {
+      "fetched": 25,
+      "kept": 23,
+      "new": 0,
+      "error": null
+    },
+    "lobsters_javascript": {
+      "fetched": 25,
+      "kept": 17,
+      "new": 0,
+      "error": null
+    },
+    "lobsters_ai": {
+      "fetched": 25,
+      "kept": 15,
+      "new": 1,
+      "error": null
+    },
+    "lobsters_programming": {
+      "fetched": 25,
+      "kept": 22,
+      "new": 0,
+      "error": null
+    },
+    "github_wayland": {
+      "fetched": 30,
+      "kept": 30,
+      "new": 0,
+      "error": null
+    },
+    "github_hyprland": {
+      "fetched": 18,
+      "kept": 18,
+      "new": 0,
+      "error": null
+    },
+    "github_quickshell": {
+      "fetched": 8,
+      "kept": 8,
+      "new": 0,
+      "error": null
+    },
+    "github_tauri": {
+      "fetched": 30,
+      "kept": 30,
+      "new": 0,
+      "error": null
+    },
+    "github_vue": {
+      "fetched": 30,
+      "kept": 30,
+      "new": 0,
+      "error": null
+    },
+    "github_threejs": {
+      "fetched": 30,
+      "kept": 30,
+      "new": 1,
+      "error": null
+    },
+    "github_voxel": {
+      "fetched": 6,
+      "kept": 6,
+      "new": 0,
+      "error": null
+    },
+    "github_mcp-server": {
+      "fetched": 30,
+      "kept": 30,
+      "new": 0,
+      "error": null
+    },
+    "github_claude-code": {
+      "fetched": 30,
+      "kept": 30,
+      "new": 0,
+      "error": null
+    },
+    "github_ai-agents": {
+      "fetched": 30,
+      "kept": 30,
+      "new": 0,
+      "error": null
+    },
+    "github_llm": {
+      "fetched": 30,
+      "kept": 30,
+      "new": 0,
+      "error": null
+    },
+    "github_ime": {
+      "fetched": 5,
+      "kept": 5,
+      "new": 0,
+      "error": null
+    },
+    "reddit_unixporn": {
+      "fetched": 15,
+      "kept": 15,
+      "new": 0,
+      "error": null,
+      "note": "via inbox, fetched 2026-11-12T16:55:21Z"
+    },
+    "reddit_archlinux": {
+      "fetched": 15,
+      "kept": 15,
+      "new": 15,
+      "error": null,
+      "note": "via inbox, fetched 2026-11-12T16:55:21Z"
+    },
+    "reddit_hyprland": {
+      "fetched": 15,
+      "kept": 15,
+      "new": 15,
+      "error": null,
+      "note": "via inbox, fetched 2026-11-12T16:55:21Z"
+    },
+    "reddit_vuejs": {
+      "fetched": 6,
+      "kept": 6,
+      "new": 6,
+      "error": null,
+      "note": "via inbox, fetched 2026-11-12T16:55:21Z"
+    },
+    "reddit_selfhosted": {
+      "fetched": 15,
+      "kept": 15,
+      "new": 15,
+      "error": null,
+      "note": "via inbox, fetched 2026-11-12T16:55:21Z"
+    },
+    "reddit_ClaudeAI": {
+      "fetched": 15,
+      "kept": 15,
+      "new": 0,
+      "error": null,
+      "note": "via inbox, fetched 2026-11-12T16:55:21Z"
+    },
+    "reddit_LocalLLaMA": {
+      "fetched": 15,
+      "kept": 15,
+      "new": 13,
+      "error": null,
+      "note": "via inbox, fetched 2026-11-12T16:55:21Z"
+    },
+    "reddit_iphone": {
+      "fetched": 15,
+      "kept": 15,
+      "new": 15,
+      "error": null,
+      "note": "via inbox, fetched 2026-11-12T16:55:21Z"
+    },
+    "reddit_apple": {
+      "fetched": 15,
+      "kept": 15,
+      "new": 14,
+      "error": null,
+      "note": "via inbox, fetched 2026-11-12T16:55:21Z"
+    },
+    "aur_new": {
+      "fetched": 100,
+      "kept": 5,
+      "new": 5,
+      "error": null
+    },
+    "simonw": {
+      "fetched": 30,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_hyprland": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_quickshell": {
+      "fetched": 6,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_waybar": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_walker": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_core": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_vite": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_pinia": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_tauri": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_three.js": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_claude-code": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "releases_mango": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "arch_news": {
+      "fetched": 10,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "vue_blog": {
+      "fetched": 15,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "figma_releases": {
+      "fetched": 473,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "openrouter_models": {
+      "fetched": 468,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "telegram_bot_api": {
+      "fetched": 83,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    },
+    "anthropic_news": {
+      "fetched": 26,
+      "kept": 0,
+      "new": 0,
+      "error": null
+    }
+  },
+  "discovery": [
+    {
+      "id": "359d6b58026b3f2d2491386abdd008d99b27e37d",
+      "title": "Paths in pieces",
+      "url": "https://stoppels.ch/2026/11/12/paths-in-pieces.html",
+      "sources": [
+        {
+          "name": "lobsters_hottest",
+          "score": 6,
+          "comments": 0,
+          "discussion_url": "https://lobste.rs/s/yrpo2q/paths_pieces"
+        },
+        {
+          "name": "lobsters_newest",
+          "score": 6,
+          "comments": 0,
+          "discussion_url": "https://lobste.rs/s/yrpo2q/paths_pieces"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-12T14:49:26Z",
+      "tags": [
+        "lobsters:unix"
+      ]
+    },
+    {
+      "id": "2be02ef86ae74e57fbb6cb9aa7118c570d8fa5c8",
+      "title": "The Secret of Monkey Island: all 13 versions side by side",
+      "url": "https://monkeyisland.pages.dev/",
+      "sources": [
+        {
+          "name": "lobsters_hottest",
+          "score": 5,
+          "comments": 0,
+          "discussion_url": "https://lobste.rs/s/ubbxhd/secret_monkey_island_all_13_versions_side"
+        },
+        {
+          "name": "lobsters_newest",
+          "score": 5,
+          "comments": 0,
+          "discussion_url": "https://lobste.rs/s/ubbxhd/secret_monkey_island_all_13_versions_side"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-12T14:37:35Z",
+      "tags": [
+        "lobsters:games",
+        "lobsters:graphics"
+      ]
+    },
+    {
+      "id": "6025e3f29ec5f72ccd680a2954500c72df1458e7",
+      "title": "updfparser",
+      "url": "http://aur.archlinux.org/packages/updfparser",
+      "sources": [
+        {
+          "name": "aur_new",
+          "score": null,
+          "comments": null,
+          "discussion_url": null
+        }
+      ],
+      "description": "Very simple PDF parser",
+      "published_at": "2026-11-12T16:53:13Z",
+      "tags": []
+    },
+    {
+      "id": "b3662209e4b8497dd19e2dea349a04f01bce72a0",
+      "title": "bootvine-git",
+      "url": "http://aur.archlinux.org/packages/bootvine-git",
+      "sources": [
+        {
+          "name": "aur_new",
+          "score": null,
+          "comments": null,
+          "discussion_url": null
+        }
+      ],
+      "description": "A boot animation showing stages of systemd as a tree",
+      "published_at": "2026-11-12T16:41:32Z",
+      "tags": []
+    },
+    {
+      "id": "7686d14b9395d0015f46d14b6f361d47c1f98fb1",
+      "title": "gputaskman",
+      "url": "http://aur.archlinux.org/packages/gputaskman",
+      "sources": [
+        {
+          "name": "aur_new",
+          "score": null,
+          "comments": null,
+          "discussion_url": null
+        }
+      ],
+      "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+      "published_at": "2026-11-12T16:41:30Z",
+      "tags": []
+    },
+    {
+      "id": "acd27b050568c3090ed3df3be0f30c31bb505349",
+      "title": "meld-qt",
+      "url": "http://aur.archlinux.org/packages/meld-qt",
+      "sources": [
+        {
+          "name": "aur_new",
+          "score": null,
+          "comments": null,
+          "discussion_url": null
+        }
+      ],
+      "description": "Visual diff and merge tool",
+      "published_at": "2026-11-12T16:35:20Z",
+      "tags": []
+    },
+    {
+      "id": "1a5f00b16c7afa8589cb5e4becff0bfb8fdf072f",
+      "title": "orgamnesia",
+      "url": "http://aur.archlinux.org/packages/orgamnesia",
+      "sources": [
+        {
+          "name": "aur_new",
+          "score": null,
+          "comments": null,
+          "discussion_url": null
+        }
+      ],
+      "description": "Lightweight Obsidian: second brain and personal wiki in Rust. Markdown and/or Emacs Org-mode notes.",
+      "published_at": "2026-11-12T16:29:47Z",
+      "tags": []
+    },
+    {
+      "id": "9feb4ac43aa6defad2c43e67ed33dd086037a748",
+      "title": "libreagi - save OS models",
+      "url": "https://libreagi.com/",
+      "sources": [
+        {
+          "name": "lobsters_hottest",
+          "score": 6,
+          "comments": 4,
+          "discussion_url": "https://lobste.rs/s/7c4iar/libreagi_save_os_models"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-12T15:35:46Z",
+      "tags": [
+        "lobsters:ai",
+        "lobsters:privacy"
+      ]
+    },
+    {
+      "id": "0978c65d72e390b7c2298afa98858a61d7ee3ab4",
+      "title": "Nvidia's Jensen Huang Resigns as CEO, Colette Kress Named Interim",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-11-11/nvidia-turmoil-board-to-weigh-ceo-jensen-huang-future-over-alleged-affairs",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xudeev/nvidias_jensen_huang_resigns_as_ceo_colette_kress/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-12T13:56:51Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "d87c02f7b49ff7c840e49d07d7a1311865b2bf7d",
+      "title": "Apple's Johny Srouji Eyed to Replace Nvidia CEO Jensen Huang",
+      "url": "https://www.macrumors.com/2026/11/12/johny-srouji-eyed-as-potential-nvidia-ceo/",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xucf02/apples_johny_srouji_eyed_to_replace_nvidia_ceo/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-12T13:12:21Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "c561c5e85bc38d1815a014d0abfc41714eaf0433",
+      "title": "Ding: a spring-physics toast library for Vue 3 and Nuxt (Open Source, MIT)",
+      "url": "https://v.redd.it/c9g7eatpb61i1",
+      "sources": [
+        {
+          "name": "reddit_vuejs",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/vuejs/comments/1xubdb0/ding_a_springphysics_toast_library_for_vue_3_and/"
+        }
+      ],
+      "description": "Added Vue support a while back and just shipped 0.0.5, so sharing here too. No dependencies.\n The video is a bit old, so it doesn't show the newer filled toasts and playground.\n https://github.com/YusufCeng1z/ding",
+      "published_at": "2026-11-12T12:21:27Z",
+      "tags": [
+        "reddit:vuejs"
+      ]
+    },
+    {
+      "id": "af26317b2c30225ba05a66c8ff9fc849ce5952bc",
+      "title": "Unemployed from last 4 months, need Job",
+      "url": "https://www.reddit.com/r/vuejs/comments/1xu66rd/unemployed_from_last_4_months_need_job/",
+      "sources": [
+        {
+          "name": "reddit_vuejs",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/vuejs/comments/1xu66rd/unemployed_from_last_4_months_need_job/"
+        }
+      ],
+      "description": "I'm a front end engineer with a strong hand in Vuejs(2 and 3) with 8 years of experience totally in vue. I am based in India. But I'm not able to find good opportunities in vue and Nuxt. The market is filled with react and next and also full stack but not specific to Vue. I'm fed up faking that I know react and interviewing and failing miserably. Any suggestions what should I do ?",
+      "published_at": "2026-11-12T07:08:14Z",
+      "tags": [
+        "reddit:vuejs"
+      ]
+    },
+    {
+      "id": "23270ed4792e1f0832f8b38d67636346ebdd7f75",
+      "title": "My functional, but delightful, island bar",
+      "url": "https://v.redd.it/hgk85benq41i1",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xu63wz/my_functional_but_delightful_island_bar/"
+        }
+      ],
+      "description": "My current Hyprland setup. The bar, launcher, notifications and lock screen all come from a custom shell toolkit (like quickshell) that I've made for myself. and the island at the top grows into whatever's happening: volume, a skipped song, a notification, the launcher. The goal was something cool and fun, but that prioritized functionality. There's a ton of legit / amazing rices out there, but most you wouldn't necessarily use as a daily driver, so I wanted to find something that I'd actually u…",
+      "published_at": "2026-11-12T07:03:26Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "9488281f84dab33c38e5717f4aa4b314c4299370",
+      "title": "I built a multi-tenant blogging platform on Nuxt. Some lessons learned",
+      "url": "https://v.redd.it/83wled93p41i1",
+      "sources": [
+        {
+          "name": "reddit_vuejs",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/vuejs/comments/1xu5v1i/i_built_a_multitenant_blogging_platform_on_nuxt/"
+        }
+      ],
+      "description": "JustBlogged runs on Nuxt 3 with NuxtHub / Cloudflare workers. \n One app serves both the dashboard and hundreds of public blogs. A server middleware switches context based on hostname, and the public blogs render through Liquid templates instead of Vue pages.\n Things that worked well: db, queues, workers, static content, caching - its all great. \n Things that hurt: Unoptimized D1 queries can result in unexpected bill (if the query needs a table/rows scan - all the rows are considered for \"read\").…",
+      "published_at": "2026-11-12T06:49:00Z",
+      "tags": [
+        "reddit:vuejs"
+      ]
+    },
+    {
+      "id": "4523d348d9c1f376eda548d977da21b9f7d1b31d",
+      "title": "Wayland Tiling window manager recommendations",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xu3okc/wayland_tiling_window_manager_recommendations/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xu3okc/wayland_tiling_window_manager_recommendations/"
+        }
+      ],
+      "description": "Hello Archies!\n I'm about a year into this this Arch Linux adventure and Linux in general.\n Originally I had used Linux mint & Debian for a couple of weeks. I was intimidated by what people said about Arch Linux, but I wanted to try Hyprland, and Debian only supported it on the testing branch, so I just decided to bite the bullet and try Arch.\n It has had its ups and downs, but overall I am way more pleased than I was with windows. I like the minimalism and the level of control. It's more stable…",
+      "published_at": "2026-11-12T04:45:08Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "a1f8bcf0a96556ef748096417ff834bfd27c36bb",
+      "title": "Walmart drives",
+      "url": "https://i.redd.it/7atq8j35m31i1.jpeg",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xu1umh/walmart_drives/"
+        }
+      ],
+      "description": "Scored a good deal on a 14tb drive, shipped and sold by Walmart. Went to out of stock after my order processed? Will it ship, or should I cancel it and keep looking?",
+      "published_at": "2026-11-12T03:10:24Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "3c78b8493444c26e7c0bd78453ee2c857384b997",
+      "title": "Am I dumb or is the wiki really bad",
+      "url": "https://www.reddit.com/r/hyprland/comments/1xtyoo9/am_i_dumb_or_is_the_wiki_really_bad/",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xtyoo9/am_i_dumb_or_is_the_wiki_really_bad/"
+        }
+      ],
+      "description": "I used Hyprland when I had Arch with the old config sintaxis and it was pretty straightforward. I didn't even check the wiki, I just analized the base config and figured it out. Then, when I moved to Gentoo, I changed to Sway and i3 and for those two I had to read the manuals and basically understood everything. I've been wanting to try Hyprland now but omg, I know nothing about Lua and I feel pretty dumb reading the wiki, like, I really don't know how to set up things. I tried to set the binds …",
+      "published_at": "2026-11-12T00:38:33Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "08ba866c2f9f6bf72d6d847e9d27f232546231fe",
+      "title": "iPhone Duos' crease after 402 000 folds.",
+      "url": "https://i.redd.it/6mic9vxqp11i1.jpeg",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xtt6ms/iphone_duos_crease_after_402_000_folds/"
+        }
+      ],
+      "description": "This is what the crease looks like after 13 days and 402 000 folds later. Tests were done by CNET and is still ongoing. Watch it live here.",
+      "published_at": "2026-11-11T20:47:05Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "a6b3ee1da8813bbd5c288c541174e590342c6b31",
+      "title": "Pi-Dock-Wifi: a Raspberry Pi 5 router with two Wi-Fi cards, Pi-hole and web dashboard",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xtsr4b/pidockwifi_a_raspberry_pi_5_router_with_two_wifi/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xtsr4b/pidockwifi_a_raspberry_pi_5_router_with_two_wifi/"
+        }
+      ],
+      "description": "Hi everyone!\n I’ve been using a Raspberry Pi 5 as my Wi-Fi router for my entire apartment, and I’ve now published the project as open source.\n The goal was to have direct control over the whole setup: wireless configuration, DHCP, DNS, routing, firewall rules and the scripts that keep everything running.\n The hardware is probably pretty unusual ...\n - Raspberry Pi 5 with 8 GB RAM.\n - A 52Pi B14 PCIe switch HAT and two Waveshare MiniPCIe adapters.\n - Two MediaTek MT7915E Wi-Fi cards.\n - USB NVMe …",
+      "published_at": "2026-11-11T20:30:05Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "749bb33cf4c491a6533a4f010108b28a91d9b642",
+      "title": "Open source self driving is here!",
+      "url": "https://v.redd.it/m4ftyafpg01i1",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmeif/open_source_self_driving_is_here/"
+        }
+      ],
+      "description": "Today NVIDIA releases Alpamayo 2 Edge! I work for Embedl and we have already released an optimized version of the model that is more than 10x faster than pytorch when run on edge hardware like AGX Thor!\n The model is trained in an RL loop (!) and takes in 6 cameras and the recent motion. Feel free to check it out - you can even run it on a real Thor at:\n https://embedl.com/nvidia/alpamayo2-edge/thor?tab=run",
+      "published_at": "2026-11-11T16:34:38Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "dcc4d5fc4eef5763dd7325b0958446133c1ab560",
+      "title": "If Apple Let You Redesign ONE Thing About iOS, What Would It Be?",
+      "url": "https://www.reddit.com/r/iphone/comments/1xtlxve/if_apple_let_you_redesign_one_thing_about_ios/",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xtlxve/if_apple_let_you_redesign_one_thing_about_ios/"
+        }
+      ],
+      "description": "Not add a new feature, actually fix or redesign something that's already there.\n For me, notifications could use a serious makeover.",
+      "published_at": "2026-11-11T16:17:16Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "d366758392c9e3b3bc993c30ebf6846683dea7eb",
+      "title": "Backups and restores",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xtk1i4/backups_and_restores/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xtk1i4/backups_and_restores/"
+        }
+      ],
+      "description": "How does everyone usually do their backups, restores and migrating to a new device?\n So basically right I've been using timeshift to create the backups and then I include /home and exclude the steam library. Then when migrating to a new machine ive figured out a really easy method instead of installing arch for the 5th time this year, is just plug in a USB with a linux OS on it and restore from timeshift onto the new computer after sorting out the partitions while being booted into the linux USB…",
+      "published_at": "2026-11-11T15:04:45Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "4c6aa267b5e773baafc8da4fbf80394e56217469",
+      "title": "NVIDIA reportedly cancels GeForce RTX 5080 24GB launch, brings back 16GB model over GDDR7 costs",
+      "url": "https://videocardz.com/newz/nvidia-reportedly-cancels-geforce-rtx-5080-24gb-launch-brings-back-16gb-model-over-gddr7-costs",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtdwps/nvidia_reportedly_cancels_geforce_rtx_5080_24gb/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-11T09:58:50Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "b753fa1c4e0e3c8bca3b889be70c02d6d8c266ef",
+      "title": "What a self-hosted dashboard looks like on 31.5 inches of colour e-ink",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xtaf06/what_a_selfhosted_dashboard_looks_like_on_315/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xtaf06/what_a_selfhosted_dashboard_looks_like_on_315/"
+        }
+      ],
+      "description": "I maintain Tesserae, a self-hosted server for e-ink dashboards. You compose a dashboard in the browser, the server renders it headless, and it pushes the frame to your panels. It's AGPL-3.0, runs as a Docker container or Home Assistant add-on, and needs no account.\n The frame is a Fraimic Large Canvas, a 31.5\" colour e-ink display. Two dashboards are in rotation on it:\n The project's own numbers for the last 30 days: 606 active installs (up from 342), 1,020 stars, and 92 merged pull requests, 68…",
+      "published_at": "2026-11-11T06:18:43Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "27faaba5d3e7876812cb63113f601387f7dcfe7b",
+      "title": "Apple Support Communities has closed, shuts down completely on November 20th",
+      "url": "https://9to5mac.com/2026/11/10/end-of-an-era-apple-support-community-forums-will-permanently-close-on-november-20/",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xt6ud0/apple_support_communities_has_closed_shuts_down/"
+        }
+      ],
+      "description": "The forum has been put into a read-only state as of tonight, and it will permanently shut down on November 20th.",
+      "published_at": "2026-11-11T03:07:12Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "dfee7da666cec53f33449ca76189e148dcb836fb",
+      "title": "I made a VS Code extension to preview Vue components in Nuxt/Vite projects",
+      "url": "https://v.redd.it/bqg2nzohfw0i1",
+      "sources": [
+        {
+          "name": "reddit_vuejs",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/vuejs/comments/1xt6tgz/i_made_a_vs_code_extension_to_preview_vue/"
+        }
+      ],
+      "description": "I made this because I spend a lot of time editing components and couldn't find a way to quickly preview them in isolation. Navigating through the app to the right page/state to view the component was becoming a headache and there wasn't any extension that would use the project's config and have zooming/screen size options.\n What more features would be nice to add to this? Here's the link to the extension:\n https://marketplace.visualstudio.com/items?itemName=timeful.timeful-studio-vscode",
+      "published_at": "2026-11-11T03:06:00Z",
+      "tags": [
+        "reddit:vuejs"
+      ]
+    },
+    {
+      "id": "2b293057811a00f134588eb752875e1b4ac3a448",
+      "title": "I just installed without a USB key",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xt6919/i_just_installed_without_a_usb_key/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xt6919/i_just_installed_without_a_usb_key/"
+        }
+      ],
+      "description": "I just pulled off a \"crazy\" trick I'm feeling kind of happy about so I thought I'd mention it. I got a great deal on a CWWK NAS board so I'm commissioning a new homelab server, and I'm \"borrowing\" a few parts from other machines I have laying around until all the parts get here.\n As such, I was already going to be pulling the NVMe disk out from another machine, so I got to thinking. The / partition was already located further into the disk than the size of the install disc, so I justdd'd the ins…",
+      "published_at": "2026-11-11T02:38:14Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "d4ed0189fc3739eff330e26216fb74227f1586b9",
+      "title": "[Fixed] Intel Core Ultra 5 (Arrow Lake-H) stuck at 22W on Linux — Unlocking 62W full performance (MSR 0x601 / IccMax root cause)",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xt3u9o/fixed_intel_core_ultra_5_arrow_lakeh_stuck_at_22w/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xt3u9o/fixed_intel_core_ultra_5_arrow_lakeh_stuck_at_22w/"
+        }
+      ],
+      "description": "I was able to fix this issue by using AI ... here is the solution (by AI)\n If you're running Linux on a new Intel Core Ultra 200H laptop (like the Core Ultra 5 225H on a Lenovo IdeaPad/ThinkPad/Yoga), you might have noticed the CPU package power gets hard-capped at ~21W–22.4W under multi-core load, with clocks pinned around 2.8 GHz and cool temps (60°C). Meanwhile, on Windows, the exact same hardware and charger easily boost and sustain up to 62W+ at 4.1+ GHz.\n By inspecting silicon registers un…",
+      "published_at": "2026-11-11T00:43:53Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "f31f5a50ff5c973e931641508f34d83dfcec5ec7",
+      "title": "EU to blacklist ten manipulative online design 'traps', leaked draft shows",
+      "url": "https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xt17hu/eu_to_blacklist_ten_manipulative_online_design/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-10T22:49:03Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "41cfc32fd9ab9a86ca5652e738ffb89c99112a5b",
+      "title": "Apple Releases New AirPods Firmware",
+      "url": "https://forums.macrumors.com/threads/apple-releases-new-airpods-firmware.2494123/",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xsz6mc/apple_releases_new_airpods_firmware/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-10T21:25:19Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "5e7a5ed6888b65419fab367adbe79de18e4b411b",
+      "title": "What cannot be self-hosted?",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xswfaz/what_cannot_be_selfhosted/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xswfaz/what_cannot_be_selfhosted/"
+        }
+      ],
+      "description": "New to this sub, but let me just say, I've gone through a couple of posts. They all seem to have one common theme: hosting an email server is a losing battle. \n Reading the comments, I can understand why: unless the network is going to be fully internal, the major players (Google, Microsoft, etc.) will make it very difficult, if not impossible, for you to send and receive email on your own over the internet. \n But again, that's just one example. Is there anything else?",
+      "published_at": "2026-11-10T19:37:35Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "601727ea938e3e07b60287b8109e60bcdcc6876f",
+      "title": "Live usb without pc",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xsviay/live_usb_without_pc/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xsviay/live_usb_without_pc/"
+        }
+      ],
+      "description": "During update due low battery my laptop shutdown now stuck and I am in a situation i currently don't have access to my live usb I have other usb but only one laptop which is crashed how do I flash it with arch iso i t. Can solved by rebuilding kernel images but it's showing boot directory empty currently can any some lone help",
+      "published_at": "2026-11-10T19:02:17Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "8a28bc86cb8c6a9a73eed5ac5d4f59d320c4bde0",
+      "title": "Is there any way to have hyprland startup looking like this?",
+      "url": "https://i.redd.it/lurhhagjrs0i1.jpeg",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xsoldq/is_there_any_way_to_have_hyprland_startup_looking/"
+        }
+      ],
+      "description": "I would like hyprland to start 3 terminal terminal tabs that show btop, neofetch and pipes on start up cause I like the way it looks. I’ve tried to have a startup.sh but it seems to only start them up one at a time and doesn’t start the next one until I close the last one. Just wondering if there was anyway to do this (also ignore the picture I don’t actually know how to screenshot)",
+      "published_at": "2026-11-10T14:41:05Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "fba1a85c09ce4a2ef62b1c94c4c08132db16c145",
+      "title": "Fable 5.2 not only has guardrails against AI acceleration, its capabilities were capped in training too",
+      "url": "https://i.redd.it/8uv4vmjtfr0i1.png",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsjfwo/fable_52_not_only_has_guardrails_against_ai/"
+        }
+      ],
+      "description": "This seems excessive, especially if they trust their classification models for safeguards, why add both?\n However I guess it is to be expected from a private company. It's also \"yet another reason\" for open weight LLMs",
+      "published_at": "2026-11-10T10:23:52Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "7de05eaf0d2582184705374eec9258662a963a11",
+      "title": "Anchor Notes: a self-hosted Google Keep alternative, now with a full redesign, highlights and a slash menu",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xsf0kh/anchor_notes_a_selfhosted_google_keep_alternative/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xsf0kh/anchor_notes_a_selfhosted_google_keep_alternative/"
+        }
+      ],
+      "description": "(sorry, posted again since the previous post was removed)\n Anchor v0.18.0 is out, and it's a big one. The Android app is finally on Google Play, the iOS app is in public beta on TestFlight, and every screen of the web and mobile apps has a new design.\n Anchor has passed 1,400 stars on GitHub since my last post. A lot of the fixes in this release came from bug reports, so thanks to everyone who took the time to submit one.\n What's in v0.18.0\n New design. The web and mobile apps now share one look…",
+      "published_at": "2026-11-10T05:45:12Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "1642bcd69075d844e82646c2fbdfb2124f0ed839",
+      "title": "Just updated your favorite Vue and Nuxt component library",
+      "url": "https://v.redd.it/85d71do0tp0i1",
+      "sources": [
+        {
+          "name": "reddit_vuejs",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/vuejs/comments/1xse705/just_updated_your_favorite_vue_and_nuxt_component/"
+        }
+      ],
+      "description": "Mood UI Documentation\n Mood UI on NPM\n Mood UI Repo\n Hey guys, just pushed an update to Mood UI with a bunch of new animated components (press buttons, morph tooltips, morph select, glass switches, surface cards, new dialog, drawer and a menu), all of them follow the provider so colors, radius and dark mode just work everywhere\n also been working on something bigger for a while, its called \"Mood Kit\", its a SaaS starter kit built with Mood UI, Nuxt 4, Laravel 13 and Postgres, basically the base …",
+      "published_at": "2026-11-10T04:59:42Z",
+      "tags": [
+        "reddit:vuejs"
+      ]
+    },
+    {
+      "id": "6f4d638c3d1586cbc800e17c1da63aa6d238d54f",
+      "title": "Looking for DE for my parents to use",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xsblig/looking_for_de_for_my_parents_to_use/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xsblig/looking_for_de_for_my_parents_to_use/"
+        }
+      ],
+      "description": "Hey everyone! I mostly use Niri+Noctalia for my setup but I'd like to install a lightweight wayland-supported desktop environment that's similar to Windows so I can occasionally lend it to my parents. I've tried LXQt+labwc for this already and it didn't quite work (blank screen, no bar rendered). Any recommendations?\n Edit: I just installed KDE and configured it minimally, thanks everyone!",
+      "published_at": "2026-11-10T02:45:49Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "0ed28af87a80b605868d5a01194009418c972c8c",
+      "title": "Audio problems with Davinci Resolve",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xsbdu6/audio_problems_with_davinci_resolve/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xsbdu6/audio_problems_with_davinci_resolve/"
+        }
+      ],
+      "description": "Hey, I'm trying to install and use davinci resolve. Recently, I got it to load up and work but then I began to face audio problems. Its hard to say what my exact problem is because it seems to do something different every time. So far the issues ive faced are the follow \n Upon loading, all of my systems audios gets removed EXCEPT for my desktop audio, yet davinci plays through my headphones still (line-out port). My entire computers audio is broken until I reboot. It also only plays within one e…",
+      "published_at": "2026-11-10T02:35:18Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "23d81130b2b8ea5535d6780e24c5c95275cffe76",
+      "title": "What's one iPhone feature you think Apple should completely redesign?",
+      "url": "https://www.reddit.com/r/iphone/comments/1xs89f7/whats_one_iphone_feature_you_think_apple_should/",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xs89f7/whats_one_iphone_feature_you_think_apple_should/"
+        }
+      ],
+      "description": "The iPhone experience is pretty polished, but I feel like some parts of iOS could still be much better.\n For example, notifications, home screen customization, the Control Center, Siri, or even the way apps are organized.\n If you could redesign one thing about the iPhone software, what would you change?\n I'm curious to hear what other iPhone users would improve first.",
+      "published_at": "2026-11-10T00:08:02Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "db77707cb0ac363412ff8d750ee984747e4a14fd",
+      "title": "Apple launches $50 'intelligence usage packs' for select AI features",
+      "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xs6dj4/apple_launches_50_intelligence_usage_packs_for/"
+        }
+      ],
+      "description": "Posting this because it's the first time Apple has actually charged for AI usage, and the details matter more than the headline. It's $49.99 as a one-time purchase, not a subscription, and right now you can only buy it inside Logic Pro, under Intelligence Features > Show Usage > Buy More Usage. It only kicks in after you burn through your monthly allowance, which is 50 image generations, 250 shapes, 50 presentations, or speaker notes for 700 slides if you only use one feature.\n Two things that j…",
+      "published_at": "2026-11-09T22:49:37Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "1a68f2f664197d06fb198fcb0e70d07ae86970ad",
+      "title": "The kernel packages situation is crazy",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xrzmcq/the_kernel_packages_situation_is_crazy/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xrzmcq/the_kernel_packages_situation_is_crazy/"
+        }
+      ],
+      "description": "So the update policy for the major versions of kernel packages in Arch is to wait for the .1 release and then push a it into the repo, but that target was missed for many versions already.\n According to kernel.org the latest version is 7.3.3 yet the stable repo still has a version 7.2.14, testing has 7.2.15, which was released on Nov 1st and that version is EOL. There have been no stable kernel package updates for more than a week.\n What is going on?",
+      "published_at": "2026-11-09T18:32:06Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "2a88e23f49c3b20c8bf9cd758fb709951a39090e",
+      "title": "iOS 27.2.1 just released",
+      "url": "https://i.redd.it/76ql0n5tom0i1.jpeg",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xrz5nn/ios_2721_just_released/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-09T18:15:06Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "6dea5d0ba71c338c865edcd9d649381dea196454",
+      "title": "iPhone 17 pro max screen randomly went like this",
+      "url": "https://www.reddit.com/r/iphone/comments/1xry5ym/iphone_17_pro_max_screen_randomly_went_like_this/",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xry5ym/iphone_17_pro_max_screen_randomly_went_like_this/"
+        }
+      ],
+      "description": "Any idea what’s wrong with my phone ? I’ve not put it in water or anything like that, I’ve got screen protection but not sure if that’ll cover this damage ? Please any advise thank you",
+      "published_at": "2026-11-09T17:39:15Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "accb869a74135b7d8053543ee47f6c1e3e094e86",
+      "title": "No matter what I do, I can’t turn these creepy ai suggested responses off.",
+      "url": "https://i.redd.it/010ott8mbm0i1.jpeg",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xrx4ek/no_matter_what_i_do_i_cant_turn_these_creepy_ai/"
+        }
+      ],
+      "description": "I’ve followed all the tips online, updated my software. Nothing works. It’s super unnerving to have my private messages read by Apple Intelligence, then intrusively give responses to those messages. All before I even have a chance to think of my own response to something I’ve been sent.",
+      "published_at": "2026-11-09T17:01:08Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "7840bcdd7fb7bcf1ccb21f37a683594ec963f5c5",
+      "title": "iPhone Duo ‘crackgate’ could be at an end, leaker claims",
+      "url": "https://www.tomsguide.com/phones/iphones/iphone-duo-crackgate-could-be-at-an-end-as-leaker-claim-apple-has-figured-out-why-some-screens-have-been-randomly-breaking",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xrvrda/iphone_duo_crackgate_could_be_at_an_end_leaker/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-09T16:11:26Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "31178e330944fff829d920b7068923b7ab0583b4",
+      "title": "I can't change the brightness of my laptop after updating",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xrrpa6/i_cant_change_the_brightness_of_my_laptop_after/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xrrpa6/i_cant_change_the_brightness_of_my_laptop_after/"
+        }
+      ],
+      "description": "I can no longer adjust the brightness after updating on my Lenovo IdeaPad Gaming 3\n Before all I had to do was add \"amdgpu.backlight=0\" as kernel parameter since I can't adjust the brightness out of the box, but now it doesn't work anymore",
+      "published_at": "2026-11-09T13:30:39Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "eb9073a853768dc14b1c8a0b5236cde9329a5094",
+      "title": "Do you guys use btrfs or ext4? and for those with btrfs, do you setup system rollback?",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xrp5lo/do_you_guys_use_btrfs_or_ext4_and_for_those_with/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xrp5lo/do_you_guys_use_btrfs_or_ext4_and_for_those_with/"
+        }
+      ],
+      "description": "I installed Arch with archinstall (btrfs + snapper). Snapshots are being taken fine and I can copy files back from them, but snapper rollback gives me the “cannot detect ambit” error.\n Do you actually set up full system rollback on btrfs, or do you mostly just restore individual files? And if you do full rollbacks, what do you use (snapper-rollback from aur, a manual swap, something else)?\n Also curious whether most of you stay on ext4 and just fix things from a live USB when something breaks.\n …",
+      "published_at": "2026-11-09T11:20:37Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "5eff242baed7b77d1dd1f2d19a52f738dcb274f4",
+      "title": "Dawarich 1.22.0 — Alternative to Google Timeline, OwnTracks and Life360",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xrourj/dawarich_1220_alternative_to_google_timeline/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xrourj/dawarich_1220_alternative_to_google_timeline/"
+        }
+      ],
+      "description": "Hello there, my favorite people of r/selfhosted!\n I'm Evgenii, the developer and maintainer of Dawarich, a free, open-source, self-hostable alternative to Google Timeline (and OwnTracks, and Life360, and Traccar, and some others too), and I brought you a fresh portion of updates we made in October 2026.\n As always, our links:\n Github: https://github.com/Freika/dawarich\n Website: https://dawarich.app/\n iOS app: https://apps.apple.com/us/app/dawarich/id6739544999\n Android app: https://play.google.…",
+      "published_at": "2026-11-09T11:03:03Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "bd189a16bd6df385e261588b3a7d2c5ab689aa17",
+      "title": "I - a first time Linux user - successfully installed Arch today! :D",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xrjfom/i_a_first_time_linux_user_successfully_installed/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xrjfom/i_a_first_time_linux_user_successfully_installed/"
+        }
+      ],
+      "description": "Hello, Arch Community! (Or should I say Hello, World?)\n I'm so happy! I didn't use the installer or whatever it's called either, I flashed a USB and installed it on my internal drive from there (replacing Windows 11). I followed the install guide, YouTube tutorials, and got some pointers from AI where I needed some assistance (I usually try to stay away from AI, but I'll sometimes use it to assist with learning). In the end, I've got a basic set up working with KDE Plasma as a DE! I'm proud :)",
+      "published_at": "2026-11-09T05:29:21Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "ff4ccc9d1390f0545efad3b0f3e8ba8819a5aa23",
+      "title": "Advice on making a recipe sharing website",
+      "url": "https://www.reddit.com/r/vuejs/comments/1xrg3f5/advice_on_making_a_recipe_sharing_website/",
+      "sources": [
+        {
+          "name": "reddit_vuejs",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/vuejs/comments/1xrg3f5/advice_on_making_a_recipe_sharing_website/"
+        }
+      ],
+      "description": "Hello everyone, was hoping to receive some guidance on the best approach for a recipe sharing website made with Vue.js. The idea is to have people input their own recipes which would get saved to https://<website\\_name><username><recipe\\_name> where they could sign in, star, create, and share recipes. \n Would this be feasible to do with Vue.js and what database would be recommended in this case? What would be a good way to prompt recipe information such as ingredients/steps/cook time?\n Thanks in…",
+      "published_at": "2026-11-09T02:31:44Z",
+      "tags": [
+        "reddit:vuejs"
+      ]
+    },
+    {
+      "id": "4b820689a8ae8eb20edd584f84a796cf7f0c4887",
+      "title": "Apple saves $2.7B in taxes by funnelling finances through Singapore",
+      "url": "https://appleinsider.com/articles/26/11/08/apple-saves-27b-in-taxes-by-funnelling-finances-through-singapore",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xrc3k3/apple_saves_27b_in_taxes_by_funnelling_finances/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-08T23:17:33Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "5740b1b65539926255290ab46ca8d3cf5d81922b",
+      "title": "AudioSilo - Self hosted audiobooks",
+      "url": "https://i.redd.it/5vvafm0h8g0i1.png",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xr8g7s/audiosilo_self_hosted_audiobooks/"
+        }
+      ],
+      "description": "*Edit* The mods told me to remove any links to a github repository that is less than 3 months old (I thought it was just the ls.io docker image, but it was also the bridge repository), so if you have seen this flash up a couple of times before disappearing, that is why, sorry.\n v2.6.0 was released yesterday, and it's at a stage now where a lot of the features I wanted in are there.\n A bit about me first, I've been a software developer for 20 years, I'm a member of linuxserver.io and the develope…",
+      "published_at": "2026-11-08T20:36:44Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "4a05af922163aa89ced8ad9427aff22603922914",
+      "title": "Report: John Ternus pushing Craig Federighi to speed up Apple software engineering",
+      "url": "https://9to5mac.com/2026/11/08/john-ternus-pushing-craig-federighi-to-move-faster-software-engineering/",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xr5vt3/report_john_ternus_pushing_craig_federighi_to/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-08T18:51:42Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "b61bedcf2c7556a421b29b52a833dd3fe63668a1",
+      "title": "magick doesn't work with .avif files despite libavif and libheif installed. What to do?",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xr2ke4/magick_doesnt_work_with_avif_files_despite/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xr2ke4/magick_doesnt_work_with_avif_files_despite/"
+        }
+      ],
+      "description": "[user@host Downloads]$ ls freddy.avif [user@host Downloads]$ magick freddy.avif freddy.png magick: no decode delegate for this image format `freddy.avif' @ error/constitute.c/ReadImageInternal/739. [user@host Downloads]$ pacman -Q libavif libheif libavif 1.4.2-1 libheif 1.23.7-1",
+      "published_at": "2026-11-08T16:35:44Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "3b73f55b8a1fa12c292447b2c110f4ce1b293e17",
+      "title": "Siri AI chief may step down as more Apple departures are rumored",
+      "url": "https://appleinsider.com/articles/26/11/08/siri-ai-chief-may-step-down-as-more-apple-departures-are-rumored",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xr2cmv/siri_ai_chief_may_step_down_as_more_apple/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-08T16:26:31Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "8ce5725a12ff97c45e386b750e2f9b5b77ca89a8",
+      "title": "Self-hosted door panel: e-paper, intercom integration and Sonos chime",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xr0o09/selfhosted_door_panel_epaper_intercom_integration/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xr0o09/selfhosted_door_panel_epaper_intercom_integration/"
+        }
+      ],
+      "description": "Weekend project that finally got finished: an e-paper panel with three buttons at my apartment door, plus doorbell integration into the building's old analog intercom.\n Stack, all local on my home server:\n ioBroker as the hub. Scripts for doorbell, door opener, cellar lock and a \"bike\" scene: unlock cellar, then open the garage gate after the cellar door closes again.\n Shelly Plus Uni in the intercom wiring. A pulse counter detects the ring and a relay opens the front door. Talks to ioBroker ove…",
+      "published_at": "2026-11-08T15:13:26Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "9712b935bc86d3fd0906d4bda9b33d8770e4a1fa",
+      "title": "\"Does censorship exist in [country]?\", according to various LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/"
+        }
+      ],
+      "description": "I wrote a small program that asks the same Yes/No question about every country to a language model, and generates an SVG world map that visualizes the model's responses: https://github.com/p-e-w/llm-beliefs\n I'm rather surprised by the results...",
+      "published_at": "2026-11-08T14:56:07Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "b866cb3ad8d490af7d0f8e91f378baff85700145",
+      "title": "Is there a safe and elegant way to enable and disable systemd-networkd without root privileges?",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xr07gw/is_there_a_safe_and_elegant_way_to_enable_and/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xr07gw/is_there_a_safe_and_elegant_way_to_enable_and/"
+        }
+      ],
+      "description": "I'd like to have an on/off switch for the network connection on my Waybar.\n networkctl requires root permissions to work: is there an secure and elegant way to use it (or something else) without root permissions? I've seen something involving Polkit, is that the right approach?\n I know I could use NetworkManager, but I want to save that as a last resort.\n If it makes a difference, I use run0; sudo is not even installed on my system.",
+      "published_at": "2026-11-08T14:53:22Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "1e8edeceb92e3ad63a64dbbf26e1cf0cca11be7a",
+      "title": "Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI.",
+      "url": "https://en.gamegpu.com/news/zhelezo/polzovateli-nachali-massovo-skupat-videokarty-rtx-5060-ti-16gb-radi-ii",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr01bj/users_have_started_buying_rtx_5060_ti_16gb/"
+        }
+      ],
+      "description": "Oh look, thats us!",
+      "published_at": "2026-11-08T14:45:22Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "1e60de79e82874401d8fe642a9cafe4741b1b856",
+      "title": "Phoenix | Hyprland",
+      "url": "https://v.redd.it/4c98zax17e0i1",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xqysj9/phoenix_hyprland/"
+        }
+      ],
+      "description": "uses quickshell \n uses ryu\n phoenix-mirror-link",
+      "published_at": "2026-11-08T13:46:38Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "0b4d7b3e3ef3b92d838bc09ff868156882a578e2",
+      "title": "Domain structure, *.home.example.com or *.example.com",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xqylfx/domain_structure_homeexamplecom_or_examplecom/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xqylfx/domain_structure_homeexamplecom_or_examplecom/"
+        }
+      ],
+      "description": "What domain structure should i choose:\n service.home.example.com and vpn.example.com (for remote access through wireguard)\n or\n service.example.com and example.com (for remote).\n Any benefits using 1st approach? AI prefers 1st but i want to make sure it's worth it and want to know what you guys using. If i choose 2nd do i expose all my subdomains while with 1st approach i expose only *.home.example.com?\n EDIT: convert example links to text",
+      "published_at": "2026-11-08T13:36:49Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "f866797aaaf52e5adbca75a80a6347562a0d567e",
+      "title": "FileRun canceled my lifetime license after I requested a receipt",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xqyhfz/filerun_canceled_my_lifetime_license_after_i/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xqyhfz/filerun_canceled_my_lifetime_license_after_i/"
+        }
+      ],
+      "description": "I thought I'd share my recent experience with FileRun, as I suspect some people here are using it or considering buying a license.\n I have used FileRun since 2023. On September 11, 2026, I paid €49 for a personal license. All was well; I got the license key and the software was working properly.\n I recently reached out to FileRun Support to request an invoice or simply proof of purchase. What could be wrong with this?\n Here are their responses:\n If we provide you one, we will convert the license…",
+      "published_at": "2026-11-08T13:31:26Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "bd74a246405761a37ec5c83ffa73a5642e440c07",
+      "title": "AirTag hidden in historic wall reveals stone thief",
+      "url": "https://www.bbc.co.uk/news/articles/cq70pdgrk4dyo",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xqy4bn/airtag_hidden_in_historic_wall_reveals_stone_thief/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-08T13:12:43Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "3bead5e7013ae9238b100e9378aee4f954a29417",
+      "title": "GitHub as VPN auth-provider",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xqw6jq/github_as_vpn_authprovider/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xqw6jq/github_as_vpn_authprovider/"
+        }
+      ],
+      "description": "PSA: if you want to secure your home lab, you should make it only accessible through a VPN, however: do not be as foolish as me and think that a billion dollar company might have its shit together when choosing an auth-provider. \n Thought I was real smart to use GitHub as my login but it turns out they have a worse uptime than my home server somehow and I cannot access it now.\n THANK YOU FOR YOUR ATTENTION TO THIS MATTER",
+      "published_at": "2026-11-08T11:19:01Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "19e68b4727a572c16442c9a9bc6bc8723c2405ee",
+      "title": "How do you handle secrets across your self-hosted stuff?",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xqu3fa/how_do_you_handle_secrets_across_your_selfhosted/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xqu3fa/how_do_you_handle_secrets_across_your_selfhosted/"
+        }
+      ],
+      "description": "My secrets have slowly turned into a mess. There are .env files on a few different hosts, some passwords pasted straight into compose files, tokens sitting in CI variables, and a password manager note I'm not proud of. Every time I rotate something I forget at least one place.\n I've looked at the usual options. SOPS with age seems nice but key distribution and CI feel fiddly. Vault or OpenBao feel like a lot to run at home, especially the unseal part after a reboot. Infisical looks good but it's…",
+      "published_at": "2026-11-08T09:00:32Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "7485c877ebc4ab2a148ce2b25972df86c13169b0",
+      "title": "Alguém me ajude a achar o dono dessas showcases linux.",
+      "url": "https://www.reddit.com/r/hyprland/comments/1xqrrjt/alguém_me_ajude_a_achar_o_dono_dessas_showcases/",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xqrrjt/alguém_me_ajude_a_achar_o_dono_dessas_showcases/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-08T06:27:57Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "b4f709af97e3c7485dd2d73dbf2488d4cba57e98",
+      "title": "Turn off wifi when leaving home - why?",
+      "url": "https://www.reddit.com/r/iphone/comments/1xqoj9a/turn_off_wifi_when_leaving_home_why/",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xqoj9a/turn_off_wifi_when_leaving_home_why/"
+        }
+      ],
+      "description": "In posts about shortcuts I see this one all the time: turn off wifi and cellular (mobile) on when leaving home and revers when returning.\n What is the benefit of that the wifi turning off when I lave - considering that my wifi automatically turns on when I get home - and why is it better to have cellular (mobile) switched off at home?",
+      "published_at": "2026-11-08T03:20:28Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "46b16934229794ef2358c69aea877a6a484d32c0",
+      "title": "FluxCast v0.3.0 released — Stream Linux desktop to Smart TV (Miracast/DLNA/Chromecast). Now with GPU encoding via VA-API and a tray settings window",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xqjwko/fluxcast_v030_released_stream_linux_desktop_to/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xqjwko/fluxcast_v030_released_stream_linux_desktop_to/"
+        }
+      ],
+      "description": "Hi r/archlinux,\n I'm Illia, the creator and maintainer of FluxCast. It's an open-source tool that casts your Linux desktop to a Smart TV over Wi-Fi Direct (Miracast), DLNA or Chromecast, with low latency. For anyone who hasn't seen the project before, the core brings up the peer-to-peer link over D-Bus through either NetworkManager or a wpa_supplicant backend, runs the full RTSP handshake itself, and streams screen and audio through low-latency ffmpeg/GStreamer pipelines. It works on wlroots com…",
+      "published_at": "2026-11-07T23:24:00Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "142fb462d1487e4d4e726fadb5733a63b84768ba",
+      "title": "Apple whistleblowers win, subscription scam ends. THANK YOU FOR REACHING OUT!",
+      "url": "https://www.youtube.com/watch?v=q4CxCRWB6rc",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xqjvet/apple_whistleblowers_win_subscription_scam_ends/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-07T23:22:28Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "f7f9b516a7da983aebc98a55413a7207eb13cf7e",
+      "title": "Rice based on samurai skin",
+      "url": "https://v.redd.it/p6jhzdgpg90i1",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xqhtkl/rice_based_on_samurai_skin/"
+        }
+      ],
+      "description": "Tech used:\n xwww binary: wallpapers and scenes management.\n xfetch: my personal fetch tool.\n equisdots: Hyprland base dots.\n Distro: X Linux - Arch based distro.",
+      "published_at": "2026-11-07T21:46:33Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "bf88492d9107297711399f0e512c4a8f300d98c9",
+      "title": "PSA - Immich defaults to a full file checksum integrity check of all images every night",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xqdi7y/psa_immich_defaults_to_a_full_file_checksum/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xqdi7y/psa_immich_defaults_to_a_full_file_checksum/"
+        }
+      ],
+      "description": "Starting in v3, more info here: https://github.com/immich-app/immich/discussions/29439\n Love immich, but recently have been cleaning up my server and watching for stray processor and io use. This was one thing that jumped out. Personally, I don't want my full image library checked each night and fixed it to something that made sense for me.",
+      "published_at": "2026-11-07T18:37:37Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "a1cbb555f0dd5d1ae96bc90ff7afaf64c356815e",
+      "title": "Made a tool that allows you to switch rices !",
+      "url": "https://v.redd.it/u48opek0h80i1",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xqd8ht/made_a_tool_that_allows_you_to_switch_rices/"
+        }
+      ],
+      "description": "My friend and i made it together :3 its written in rust and its really cool!!!\n CLI repo\n GUI repo",
+      "published_at": "2026-11-07T18:26:28Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "996ac66891b855ba5476312da19c1cbc0a48e316",
+      "title": "Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)",
+      "url": "https://v.redd.it/g80qnydhc80i1",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/"
+        }
+      ],
+      "description": "Hey r/LocalLLaMA !\n I made this quick demo of how Observer can run local models to monitor anything with your phone! \n These are some crazy things I've monitored:\n When someone that's not me, approaches my car, send me a picture.\n When a bird is on the bird's nest, send me a telegram with the picture.\n When my washing machine is on the rinse cycle, call me.\n When my dog finishes eating their food, notify me.\n When a machine at the gym is available, call me.\n So pretty much anything! I love seein…",
+      "published_at": "2026-11-07T18:16:41Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "66a2ea2b86f9d0b5c0c7642e6fc62f4a737dff15",
+      "title": "Apple Sports is getting so much better – what do you think it still needs?",
+      "url": "https://www.reddit.com/r/iphone/comments/1xqaj0r/apple_sports_is_getting_so_much_better_what_do/",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xqaj0r/apple_sports_is_getting_so_much_better_what_do/"
+        }
+      ],
+      "description": "I’ve noticed that Apple Sports has been improving a lot lately, and I’m really enjoying the progress. It’s an app I use quite often to follow football and other sports.\n I think Apple is heading in the right direction, but there’s still room for improvement.\n Are you enjoying Apple Sports so far? What features would you like to see added? Do you think it has everything you need, or do you still rely on other sports apps alongside it?",
+      "published_at": "2026-11-07T16:32:38Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "871928e01e74e8d8997a4726214156f1498200d7",
+      "title": "Wallpaper transitions that outline the character first",
+      "url": "https://v.redd.it/dihcwlt6j70i1",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xq8r00/wallpaper_transitions_that_outline_the_character/"
+        }
+      ],
+      "description": "new wallpaper transitions for my rice. wallpapers with a character get their outline drawn first and the world grows out of it, the rest spread in as pixel colonies. the picker is the same coverflow as before, it just doesn't do the awww fade anymore, the shell draws the change and swaps awww underneath when it's done. dotfiles are on github if you wanna try it https://github.com/diegoMalagrida/pocket-dots",
+      "published_at": "2026-11-07T15:17:14Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "93f1652122943317b8795f461d8518154f10fafb",
+      "title": "iPhone 18 could be released with a 4430mah, bigger than the 18 pro 4288mah",
+      "url": "https://i.redd.it/3mfk5zrx970i1.jpeg",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xq7kvr/iphone_18_could_be_released_with_a_4430mah_bigger/"
+        }
+      ],
+      "description": "source: https://wap.gamersky.com/news/Content-2242497.html\n interesting rumor but take it with a pinch of salt\n edit: in the image, left is iphone 18 and right is iphone 18e\n if true, iphone 18 will be the first base iphone that exceeds more than 4000mah of battery capacity. for reference, iphone 15 pro max has a 4422mah battery",
+      "published_at": "2026-11-07T14:25:01Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "a32ebd834c5a2a86eba13033fa66b3c7845f5a97",
+      "title": "⚠️ WARNING TO ALL APPLECARE+ CUSTOMERS! ⚠️",
+      "url": "https://i.redd.it/s0t63sjr170i1.jpeg",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xq6lky/warning_to_all_applecare_customers/"
+        }
+      ],
+      "description": "Edit: this post obviously has ruffled some feathers. I appreciate everyone who was helpful and believe me! I have responded to a lot of comments already, and somewhere in this massive comment thread is a screenshot of the email from Apple with the link they sent me to file a claim (showing a legitimate website and that I was not scammed) and I also attached in the comments the recorded admission of a known system glitch directly from a supervisor at AIG. I understand it makes no sense, but I gue…",
+      "published_at": "2026-11-07T13:39:13Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "e45f701de4028ec29596baaba1dfd65e10a01797",
+      "title": "Weird Pictures",
+      "url": "https://i.redd.it/693fwx9da60i1.jpeg",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xq3umh/weird_pictures/"
+        }
+      ],
+      "description": "Why is it when i take pictures on my iPhone using 8x zoon they turn out to be painting from 1500s (17PM)",
+      "published_at": "2026-11-07T11:05:38Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "c74681af9257f7bc36a7d523a1f42519540ed1c2",
+      "title": "Gmail replacement - cautious with newer projects",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xq247w/gmail_replacement_cautious_with_newer_projects/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xq247w/gmail_replacement_cautious_with_newer_projects/"
+        }
+      ],
+      "description": "I replaced almost all services with selfhosted solutions, but I really struggle to find gmail replacements.\n Recently I saw some interesting projects like plmail or mailflow. But I'm kind of reluctant due to the vibe coded nature of such projects.\n Some features I'd like to have: webmail and Android app (pwa or native), usable search, snooze. Easy in and export... I'm not switching to proton to be locked in the next golden cage.\n Any opinions on mail?\n edit: great confusion. I'm not looking for …",
+      "published_at": "2026-11-07T09:11:31Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "42cf5ae474b4f25fa5dd7bb4a7c7495208a33a76",
+      "title": "Overworld: I turned my Hyprland desktop into a Minecraft world (Quickshell HUD, hotbar workspaces, block-breaking window close)",
+      "url": "https://www.reddit.com/r/hyprland/comments/1xpydhm/overworld_i_turned_my_hyprland_desktop_into_a/",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xpydhm/overworld_i_turned_my_hyprland_desktop_into_a/"
+        }
+      ],
+      "description": "I turned my Hyprland desktop into Minecraft. Workspaces are the hotbar, hearts show battery, notifications pop up as advancements, and closing a window plays the block-breaking animation before it goes.\n Repo with install instructions: https://github.com/nurasik14/overworld-hyprland\n This is my first big rice, and I'm a first-year CS student, so I'd really like feedback on what to fix or add. If you like it, a star on GitHub helps a lot.\n Details\n WM: Hyprland 0.56 on Fedora 44\n Shell / bar / wi…",
+      "published_at": "2026-11-07T05:20:06Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "b8a3f9441dc917cfa29aa337bf93654b399ef37a",
+      "title": "Good Luck Getting a Cheap GPU. AMD Is a 'Data Center First Company,' CEO Says",
+      "url": "https://www.pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/"
+        }
+      ],
+      "description": "they are all the same and we ... are too emotional!\n and yes we already knew that.",
+      "published_at": "2026-11-07T04:05:32Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "a66265b90bdb62fa13f529566d1aee135e0ab65e",
+      "title": "Six Pallets of NVIDIA Hardware Worth $11.4 Million Stolen on the Way to Texas",
+      "url": "https://www.techpowerup.com/354551/six-pallets-of-nvidia-hardware-worth-usd-11-4-million-stolen-on-the-way-to-texas",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqx1p/six_pallets_of_nvidia_hardware_worth_114_million/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-06T23:03:21Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "7fd043b104cd16f9852f9bedcf0706b58b8a3b99",
+      "title": "Why is typing just such a painful experience on the iOS? Its an integral experience of using a phone but Apple just doesn’t seem to care",
+      "url": "https://www.reddit.com/r/iphone/comments/1xpphvo/why_is_typing_just_such_a_painful_experience_on/",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xpphvo/why_is_typing_just_such_a_painful_experience_on/"
+        }
+      ],
+      "description": "rant.\n -Why is it that when I want to edit a single letter on my Safari address bar, I have to double tap on an area which narrows the highlighted text, then tap once to the area so it changes to the single typing cursor so I can actually edit? That is three taps for a single action\n -Why is it that when I’m typing and I want to move a typing cursor, that I have to pilot the freaking magnifying glass and glide it just with the right dexterity so it actually lands where I want it to? (Accessibili…",
+      "published_at": "2026-11-06T22:01:22Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "112d946c450c9f1bae28daa2142ed33846050f66",
+      "title": "Hyprgamy",
+      "url": "https://i.redd.it/2ymuerzpx10i1.png",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xpn8x5/hyprgamy/"
+        }
+      ],
+      "description": "allat work for a crappy joke XD",
+      "published_at": "2026-11-06T20:27:38Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "687e2fb7772687eb77a2e98cee55341f13ae5979",
+      "title": "We are cooked. My QFN 3.8 NVFP4 just drew a dog freehand in MS Paint (using new Open WebUI 0.13.0 and Open Terminal 0.17.2)",
+      "url": "https://i.redd.it/qqc2oz7yu10i1.jpeg",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/we_are_cooked_my_qfn_38_nvfp4_just_drew_a_dog/"
+        }
+      ],
+      "description": "Forget stupid pelican on a bike SVG bullshit. Forget cheating by drawing using Python code. I just loaded up QFN 3.8 in the new Open WebUI 0.13.0 and it just said “hold my beer” and started drawing with the friggin’ mouse coordinates inside a VM. I’m going to print this and hang it on my wall like a proud parent. \n Seriously tho, this is all possible because of the new Open WebUI 0.13.0 features that let you control a virtual desktop VM that is running in 0.17.2 version of their Open Terminal re…",
+      "published_at": "2026-11-06T20:12:07Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "d959cc101c288701b3609f29fabc8028fd12ad2d",
+      "title": "drift - A minimal, reliable music player using Vim keybinds.",
+      "url": "https://www.reddit.com/r/archlinux/comments/1xpkbsh/drift_a_minimal_reliable_music_player_using_vim/",
+      "sources": [
+        {
+          "name": "reddit_archlinux",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/archlinux/comments/1xpkbsh/drift_a_minimal_reliable_music_player_using_vim/"
+        }
+      ],
+      "description": "hi, I made a drift which is a yt music player in rust\n ya meow\n https://github.com/socatlolmeow/drift",
+      "published_at": "2026-11-06T18:31:00Z",
+      "tags": [
+        "reddit:archlinux"
+      ]
+    },
+    {
+      "id": "1036760ad3dbed02fe3f5267367bdfdcf9ab09e2",
+      "title": "Apple Rumored to Drop the iPhone's Action Button Next Year",
+      "url": "https://www.reddit.com/r/iphone/comments/1xph5um/apple_rumored_to_drop_the_iphones_action_button/",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xph5um/apple_rumored_to_drop_the_iphones_action_button/"
+        }
+      ],
+      "description": "As per MacRumors, https://www.macrumors.com/2026/11/06/apple-rumored-to-drop-the-action-button/\n Personally I'd get rid of the Camera Control button first. There are 4+ ways you can jump straight into the camera app from your Home Screen. Losing it won't be a huge loss.\n I used the button once when first buying the iPhone 16 Pro and the other times were when I hit it by accident.\n The Action button is a lot more useful.\n EDIT: I've added the correct link. Thanks for anyone who flagged it.",
+      "published_at": "2026-11-06T16:29:42Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "9e66a2f0b89ed2b9f4db75894e718b79df60b667",
+      "title": "Swipeblocked: the phrases your iPhone won't suggest",
+      "url": "https://swipeblocked.com",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xpfwze/swipeblocked_the_phrases_your_iphone_wont_suggest/"
+        }
+      ],
+      "description": "Apple doesn't publish the list or say how it's chosen. This site decodes it from the keyboard's own data files, as of iOS 27.0.",
+      "published_at": "2026-11-06T15:40:49Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "9200cbe444cadf7a3d4b82f8372b47ab85fdff5e",
+      "title": "Apple Rumored to Drop the iPhone's Action Button Next Year",
+      "url": "https://www.macrumors.com/2026/11/06/apple-rumored-to-drop-the-action-button/",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xpf5c5/apple_rumored_to_drop_the_iphones_action_button/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-06T15:09:49Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "88c8e34ff1b656042165e5c7efa8a6b4e8b430f9",
+      "title": "So are you folks already on lua?",
+      "url": "https://i.redd.it/gfanxhpj600i1.png",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xpeqsd/so_are_you_folks_already_on_lua/"
+        }
+      ],
+      "description": "I'm fairly new to hyprland but finally got used to the ecosystem and managed to adapt it to be usable as a daily driver. I started off with dots from JaKooLit, not sure that i can recommend following this path but it worked as a demonstration. Overall too much bells and whistles and config looks like a pile of crap, a pain for an engineer to look at. But i don't mind tinkering and cleaning up.\n Anyways, this where good stuff ends. I already encountered several breaking changes that popped up whe…",
+      "published_at": "2026-11-06T14:53:32Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "656cec7024cc0cde1f32c73cda10b86864d34522",
+      "title": "Democrat orders Apple to disclose details of Trump ballroom donation",
+      "url": "https://appleinsider.com/articles/26/11/06/democrat-orders-apple-to-disclose-details-of-trump-ballroom-donation",
+      "sources": [
+        {
+          "name": "reddit_apple",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/apple/comments/1xpcsqx/democrat_orders_apple_to_disclose_details_of/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-06T13:28:41Z",
+      "tags": [
+        "reddit:apple"
+      ]
+    },
+    {
+      "id": "187eb0f0d8f8498dd450e07aa564c2ae216a1b10",
+      "title": "first actual quickshell rice",
+      "url": "https://www.reddit.com/r/hyprland/comments/1xpcqdn/first_actual_quickshell_rice/",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xpcqdn/first_actual_quickshell_rice/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-06T13:25:36Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "658b08208d746b5ccfc24c31b2afea1a40d88ca9",
+      "title": "Created a simple audio reactive rice.",
+      "url": "https://v.redd.it/8t4gkmshnyzh1",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xp8kks/created_a_simple_audio_reactive_rice/"
+        }
+      ],
+      "description": "I like it. Would like suggestion to improve it more.\n Dotfiles- https://github.com/GGcoder11mf/maximal-shell",
+      "published_at": "2026-11-06T09:25:36Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "d3d50a86ff766299e1de824fb5086bb4a0c37c85",
+      "title": "Asking questions to a 0.5b model is hillarious",
+      "url": "https://i.redd.it/dsafx7wakyzh1.png",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8as6/asking_questions_to_a_05b_model_is_hillarious/"
+        }
+      ],
+      "description": "Yes IK it's supposed to be this dumb, but it's still funny (Qwen2 0.5b Q4_K_M)",
+      "published_at": "2026-11-06T09:07:37Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "45fd65b94b776e419ae6e8ddfd57b781600d2b39",
+      "title": "Why would i wake up to my phone on this screen but no alarm ringing? i have been late many times because my phone isn’t actually ringing. attention aware is off and ringer is at max…",
+      "url": "https://i.redd.it/kwamykym0yzh1.jpeg",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xp6mvv/why_would_i_wake_up_to_my_phone_on_this_screen/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-06T07:16:50Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "5edffa52419102c84710c189d665d30132c0a07c",
+      "title": "Ryoku's so peak",
+      "url": "https://v.redd.it/jc2nrtsi8xzh1",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xp40hr/ryokus_so_peak/"
+        }
+      ],
+      "description": "Everything used here comes inside of the Ryoku Arch ISO, except the wallpaper, i explicitly generated it with the help of Chat GPT for my resolution",
+      "published_at": "2026-11-06T04:41:57Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "eb223dd4740114b61ef824b789b29e3868ce01b6",
+      "title": "Carplay makes a new AirPlay session password every time you connect.",
+      "url": "https://i.redd.it/op4078bxewzh1.png",
+      "sources": [
+        {
+          "name": "reddit_iphone",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/iphone/comments/1xp0v10/carplay_makes_a_new_airplay_session_password/"
+        }
+      ],
+      "description": "2095 since the last time I cleaned this out in May of 2025.",
+      "published_at": "2026-11-06T01:59:02Z",
+      "tags": [
+        "reddit:iphone"
+      ]
+    },
+    {
+      "id": "6932328427b0dc07e6082feb4847ce81574ea690",
+      "title": "Are there any good alternatives to discord?",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1xp0f0g/are_there_any_good_alternatives_to_discord/",
+      "sources": [
+        {
+          "name": "reddit_selfhosted",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/selfhosted/comments/1xp0f0g/are_there_any_good_alternatives_to_discord/"
+        }
+      ],
+      "description": "I don’t care about discord servers. This is not for the public. I just want to use something that has good screen sharing (like discord’s), call support, and a chat.\n Calling and chat options are the easy ones to find. I’ve been having trouble finding something for responsive screen sharing. Especially ones that works for group calls.\n I will only be using this with people I know. As much as I hate discord I haven’t found a suitable replacement yet.\n In summary, key criteria I want are:\n - calli…",
+      "published_at": "2026-11-06T01:37:01Z",
+      "tags": [
+        "reddit:selfhosted"
+      ]
+    },
+    {
+      "id": "f0a9300fc2fd365e40e28511e4a2258f7882b316",
+      "title": "Cyberpunk Rice Inspired",
+      "url": "https://www.reddit.com/r/hyprland/comments/1xox7o8/cyberpunk_rice_inspired/",
+      "sources": [
+        {
+          "name": "reddit_hyprland",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/hyprland/comments/1xox7o8/cyberpunk_rice_inspired/"
+        }
+      ],
+      "description": "Wallpapers - Scenes (change with Palette sync on equisdots)\n Xfetch also synced.\n I am working on implementing the possibility of making my dots open-source to let people collaborate with suggestions and plugins via issues or PRs (making it modular).",
+      "published_at": "2026-11-05T23:08:28Z",
+      "tags": [
+        "reddit:hyprland"
+      ]
+    },
+    {
+      "id": "94f347e7bbcfc2c3604c593b0e4978f2d3dc6e1d",
+      "title": "Maybe we'll get cheap RAM for Christmas after all!",
+      "url": "https://i.redd.it/8efln1489vzh1.png",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xovnaa/maybe_well_get_cheap_ram_for_christmas_after_all/"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-11-05T22:00:25Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "4f4479300740834dea4c6ae9a5666b92a2a1a347",
+      "title": "Z.ai chief scientist Jie Tang just revealed the training pipeline behind the upcoming GLM-5.5 (32B, 122B, and 256B)",
+      "url": "https://x.com/bebuu_ai/status/2118052769856888892",
+      "sources": [
+        {
+          "name": "reddit_LocalLLaMA",
+          "score": null,
+          "comments": null,
+          "discussion_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xossr5/zai_chief_scientist_jie_tang_just_revealed_the/"
+        }
+      ],
+      "description": "Smaller GLM models are coming! GLM 5.5 will have a 32B model!",
+      "published_at": "2026-11-05T20:06:15Z",
+      "tags": [
+        "reddit:LocalLLaMA"
+      ]
+    },
+    {
+      "id": "bfe7eb52a1375deaac3a335851c705e7f81daefb",
+      "title": "Leonxlnx/cook",
+      "url": "https://github.com/Leonxlnx/cook",
+      "sources": [
+        {
+          "name": "github_threejs",
+          "score": 79,
+          "comments": null,
+          "discussion_url": null
+        }
+      ],
+      "description": "Give your agent a target, a bar and time, then let it cook. An agent skill for visual builds that have to match reference images or videos.",
+      "published_at": "2026-10-31T21:48:38Z",
+      "tags": [
+        "github-topic:threejs",
+        "lang:JavaScript"
+      ]
+    },
+    {
+      "id": "a650c74fe354cb9f07b74f64ee2a44ec35c59eab",
+      "title": "Kolibri: A Sovereign Open-Weight Model",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "sources": [
+        {
+          "name": "lobsters_ai",
+          "score": 37,
+          "comments": 5,
+          "discussion_url": "https://lobste.rs/s/qcgjpu/kolibri_sovereign_open_weight_model"
+        }
+      ],
+      "description": "",
+      "published_at": "2026-10-04T07:57:55Z",
+      "tags": [
+        "lobsters:ai"
+      ]
+    }
+  ],
+  "tracking": []
+}
