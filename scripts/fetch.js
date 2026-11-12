@@ -122,7 +122,9 @@ function buildStats(parts, newIds, itemIdsByPart) {
 
 // Compact view of latest.json for a first pass: titles and signals only,
 // one item per line. Full details are looked up in latest.json by `id`.
-function buildIndex(output) {
+// `runs` lists the archived run files (oldest first) so a reader without
+// directory listing access can find runs it missed.
+function buildIndex(output, runs = []) {
   const src = (s) => (s.score != null ? `${s.name}:${s.score}` : s.name);
   const discovery = output.discovery.map((d) => ({ id: d.id, title: d.title, src: d.sources.map(src).join(' ') }));
   const tracking = output.tracking.map((t) => ({ id: t.id, project: t.project, version: t.version }));
@@ -135,6 +137,7 @@ function buildIndex(output) {
     `  "generated_at": ${JSON.stringify(output.generated_at)},\n` +
     `  "since": ${JSON.stringify(output.since)},\n` +
     `  "errors": ${JSON.stringify(errors)},\n` +
+    `  "runs": ${JSON.stringify(runs.map((f) => `data/runs/${f}`))},\n` +
     `  "discovery": ${lines(discovery)},\n` +
     `  "tracking": ${lines(tracking)}\n` +
     '}\n'
@@ -144,7 +147,9 @@ function buildIndex(output) {
 async function pruneRuns(keep) {
   const dir = path('data/runs');
   const files = (await readdir(dir).catch(() => [])).filter((f) => f.endsWith('.json')).sort();
-  for (const f of files.slice(0, Math.max(0, files.length - keep))) await rm(join(dir, f));
+  const drop = Math.max(0, files.length - keep);
+  for (const f of files.slice(0, drop)) await rm(join(dir, f));
+  return files.slice(drop);
 }
 
 async function main() {
@@ -193,9 +198,9 @@ async function main() {
   };
 
   await writeJson(path('data/latest.json'), output);
-  await writeFile(path('data/index.json'), buildIndex(output));
   await writeJson(path('data/runs', `${nowIso.replace(/:/g, '')}.json`), output);
-  await pruneRuns(config.runs_to_keep);
+  const runs = await pruneRuns(config.runs_to_keep);
+  await writeFile(path('data/index.json'), buildIndex(output, runs));
 
   // Update state. Only advance `since` if at least one source worked,
   // so a total outage (e.g. no network) does not create a gap.
