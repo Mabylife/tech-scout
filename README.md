@@ -41,6 +41,7 @@ waits 7 s between topic queries).
 | `state/seen.json` | IDs already emitted, with first-seen time. Pruned after `seen_retention_days`. |
 | `state/snapshots/` | Previous lists for snapshot-diff sources. |
 | `data/latest.json` | Output of the latest run. |
+| `data/index.json` | Compact view of `latest.json` (id, title, sources with scores), one item per line. Read this first, then look up details by `id`. |
 | `data/runs/` | Output archive, last `runs_to_keep` runs. |
 
 ## How it works
@@ -98,6 +99,16 @@ only new entries.
 ```
 
 All times are ISO 8601 UTC.
+
+`data/index.json` holds the same items with only `id`, `title` and `src`
+(e.g. `"hn_top:264 lobsters_hottest:30"`) for discovery, `id`, `project` and
+`version` for tracking, plus a list of source errors. It is about a quarter of
+the size of `latest.json`, so a reader can scan everything cheaply and fetch
+details only for the items it cares about:
+
+```sh
+jq '.discovery[] | select(.id == "<id>")' data/latest.json
+```
 
 ## Sources
 

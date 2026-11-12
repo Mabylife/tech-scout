@@ -120,6 +120,27 @@ function buildStats(parts, newIds, itemIdsByPart) {
   return stats;
 }
 
+// Compact view of latest.json for a first pass: titles and signals only,
+// one item per line. Full details are looked up in latest.json by `id`.
+function buildIndex(output) {
+  const src = (s) => (s.score != null ? `${s.name}:${s.score}` : s.name);
+  const discovery = output.discovery.map((d) => ({ id: d.id, title: d.title, src: d.sources.map(src).join(' ') }));
+  const tracking = output.tracking.map((t) => ({ id: t.id, project: t.project, version: t.version }));
+  const errors = Object.entries(output.stats)
+    .filter(([, s]) => s.error)
+    .map(([k, s]) => `${k}: ${s.error}`);
+  const lines = (arr) => (arr.length ? `[\n${arr.map((x) => `    ${JSON.stringify(x)}`).join(',\n')}\n  ]` : '[]');
+  return (
+    '{\n' +
+    `  "generated_at": ${JSON.stringify(output.generated_at)},\n` +
+    `  "since": ${JSON.stringify(output.since)},\n` +
+    `  "errors": ${JSON.stringify(errors)},\n` +
+    `  "discovery": ${lines(discovery)},\n` +
+    `  "tracking": ${lines(tracking)}\n` +
+    '}\n'
+  );
+}
+
 async function pruneRuns(keep) {
   const dir = path('data/runs');
   const files = (await readdir(dir).catch(() => [])).filter((f) => f.endsWith('.json')).sort();
@@ -172,6 +193,7 @@ async function main() {
   };
 
   await writeJson(path('data/latest.json'), output);
+  await writeFile(path('data/index.json'), buildIndex(output));
   await writeJson(path('data/runs', `${nowIso.replace(/:/g, '')}.json`), output);
   await pruneRuns(config.runs_to_keep);
 
