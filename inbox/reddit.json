@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T17:15:50Z",
+  "fetched_at": "2026-11-12T17:22:42Z",
   "parts": [
     {
       "key": "reddit_unixporn",
@@ -1206,21 +1206,6 @@
           }
         },
         {
-          "title": "HUGE Fable 5.2 Issue",
-          "url": "https://i.redd.it/q4cumo6aip0i1.jpeg",
-          "description": "It’s not telling me to go to sleep every few hours like Opus used to.",
-          "published_at": "2026-11-10T03:43:50Z",
-          "tags": [
-            "reddit:ClaudeAI"
-          ],
-          "source": {
-            "name": "reddit_ClaudeAI",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/ClaudeAI/comments/1xscs0g/huge_fable_52_issue/"
-          }
-        },
-        {
           "title": "Holy guardrails",
           "url": "https://i.redd.it/40hivrdddf0i1.jpeg",
           "description": "Was cloude always like this? I am trying it for a month now. Really great capabilities but these safe guards are ridiculously sensitive. To the point it makes me apply for security researcher when trying to troubleshoot a problem. Or am I using it wrong?",
@@ -1233,6 +1218,21 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/ClaudeAI/comments/1xr45rt/holy_guardrails/"
+          }
+        },
+        {
+          "title": "HUGE Fable 5.2 Issue",
+          "url": "https://i.redd.it/q4cumo6aip0i1.jpeg",
+          "description": "It’s not telling me to go to sleep every few hours like Opus used to.",
+          "published_at": "2026-11-10T03:43:50Z",
+          "tags": [
+            "reddit:ClaudeAI"
+          ],
+          "source": {
+            "name": "reddit_ClaudeAI",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/ClaudeAI/comments/1xscs0g/huge_fable_52_issue/"
           }
         },
         {
@@ -1884,21 +1884,6 @@
           }
         },
         {
-          "title": "Apple's Johny Srouji Eyed to Replace Nvidia CEO Jensen Huang",
-          "url": "https://www.macrumors.com/2026/11/12/johny-srouji-eyed-as-potential-nvidia-ceo/",
-          "description": "",
-          "published_at": "2026-11-12T13:12:21Z",
-          "tags": [
-            "reddit:apple"
-          ],
-          "source": {
-            "name": "reddit_apple",
-            "score": null,
-            "comments": null,
-            "discussion_url": "https://www.reddit.com/r/apple/comments/1xucf02/apples_johny_srouji_eyed_to_replace_nvidia_ceo/"
-          }
-        },
-        {
           "title": "President Trump calls on Tim Cook to be next NVIDIA CEO",
           "url": "https://9to5mac.com/2026/11/12/president-trump-calls-on-tim-cook-to-be-next-nvidia-ceo/",
           "description": "",
@@ -1911,6 +1896,21 @@
             "score": null,
             "comments": null,
             "discussion_url": "https://www.reddit.com/r/apple/comments/1xugafn/president_trump_calls_on_tim_cook_to_be_next/"
+          }
+        },
+        {
+          "title": "Apple's Johny Srouji Eyed to Replace Nvidia CEO Jensen Huang",
+          "url": "https://www.macrumors.com/2026/11/12/johny-srouji-eyed-as-potential-nvidia-ceo/",
+          "description": "",
+          "published_at": "2026-11-12T13:12:21Z",
+          "tags": [
+            "reddit:apple"
+          ],
+          "source": {
+            "name": "reddit_apple",
+            "score": null,
+            "comments": null,
+            "discussion_url": "https://www.reddit.com/r/apple/comments/1xucf02/apples_johny_srouji_eyed_to_replace_nvidia_ceo/"
           }
         },
         {
