@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-11-12T15:40:59Z",
+  "since": "2026-11-12T14:58:36Z",
+  "errors": ["reddit_archlinux: HTTP 429","reddit_hyprland: HTTP 429","reddit_vuejs: HTTP 429","reddit_selfhosted: HTTP 429","reddit_ClaudeAI: HTTP 429","reddit_LocalLLaMA: HTTP 429","reddit_iphone: HTTP 429"],
+  "discovery": [
+    {"id":"993d7aed5cd565ebc91c5d4461cd728df22154a5","title":"Adapting CPython for yk","src":"lobsters_hottest:5 lobsters_newest:5"},
+    {"id":"65a98560171771501a825ed9f3d405a642d6ff41","title":"gruppled-svg-cursor-theme-git","src":"aur_new"},
+    {"id":"eb1cfcf2cdf20333e518e5c3b3e6a8a081ea7166","title":"gnome-voice-server","src":"aur_new"},
+    {"id":"27faaba5d3e7876812cb63113f601387f7dcfe7b","title":"Apple Support Communities has closed, shuts down completely on November 20th","src":"reddit_apple"},
+    {"id":"f31f5a50ff5c973e931641508f34d83dfcec5ec7","title":"EU to blacklist ten manipulative online design 'traps', leaked draft shows","src":"reddit_apple"},
+    {"id":"41cfc32fd9ab9a86ca5652e738ffb89c99112a5b","title":"Apple Releases New AirPods Firmware","src":"reddit_apple"},
+    {"id":"db77707cb0ac363412ff8d750ee984747e4a14fd","title":"Apple launches $50 'intelligence usage packs' for select AI features","src":"reddit_apple"},
+    {"id":"7840bcdd7fb7bcf1ccb21f37a683594ec963f5c5","title":"iPhone Duo ‘crackgate’ could be at an end, leaker claims","src":"reddit_apple"},
+    {"id":"4b820689a8ae8eb20edd584f84a796cf7f0c4887","title":"Apple saves $2.7B in taxes by funnelling finances through Singapore","src":"reddit_apple"},
+    {"id":"4a05af922163aa89ced8ad9427aff22603922914","title":"Report: John Ternus pushing Craig Federighi to speed up Apple software engineering","src":"reddit_apple"},
+    {"id":"3b73f55b8a1fa12c292447b2c110f4ce1b293e17","title":"Siri AI chief may step down as more Apple departures are rumored","src":"reddit_apple"},
+    {"id":"bd74a246405761a37ec5c83ffa73a5642e440c07","title":"AirTag hidden in historic wall reveals stone thief","src":"reddit_apple"},
+    {"id":"9e1c358cf0a4ee0dc45775d69f295f6651b8cddf","title":"'Backglow' Lets You Customize New MacBook Pro's Glowing Apple Logo","src":"reddit_apple"},
+    {"id":"142fb462d1487e4d4e726fadb5733a63b84768ba","title":"Apple whistleblowers win, subscription scam ends. THANK YOU FOR REACHING OUT!","src":"reddit_apple"},
+    {"id":"9e66a2f0b89ed2b9f4db75894e718b79df60b667","title":"Swipeblocked: the phrases your iPhone won't suggest","src":"reddit_apple"},
+    {"id":"9200cbe444cadf7a3d4b82f8372b47ab85fdff5e","title":"Apple Rumored to Drop the iPhone's Action Button Next Year","src":"reddit_apple"},
+    {"id":"656cec7024cc0cde1f32c73cda10b86864d34522","title":"Democrat orders Apple to disclose details of Trump ballroom donation","src":"reddit_apple"}
+  ],
+  "tracking": []
+}
