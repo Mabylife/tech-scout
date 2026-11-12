@@ -24,6 +24,7 @@ npm ci
 node scripts/fetch.js
 ```
 
+Set `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` to use the Reddit API (see below).
 Set `GITHUB_TOKEN` to raise the GitHub Search rate limit (otherwise the script
 waits 7 s between topic queries).
 
@@ -108,7 +109,7 @@ All times are ISO 8601 UTC.
 | `hn_top` | HN Algolia, `tags=story` | points ≥ 100 |
 | `lobsters_*` | `lobste.rs/{hottest,newest,t/…}.json` | score ≥ 5 |
 | `github_*` | GitHub Search, one query per topic | stars ≥ 20, created within 30 days, top 30 |
-| `reddit_*` | `reddit.com/r/{sub}/top.rss?t=week` | top 15. RSS has no score. |
+| `reddit_*` | `oauth.reddit.com/r/{sub}/top?t=week` (falls back to `top.rss` without credentials) | top 15, stickied posts removed |
 | `aur_new` | `aur.archlinux.org/rss/` | none (feed holds only the latest 100) |
 | `simonw` | `simonwillison.net/atom/everything/` | none |
 | `mcp_registry` | `registry.modelcontextprotocol.io/v0/servers` | **disabled**, see below |
@@ -131,8 +132,8 @@ All times are ISO 8601 UTC.
   (servers first seen after the baseline).
 - **Telegram** and **Anthropic** are HTML scrapes and will break if the page
   markup changes; the adapter then reports a `page structure changed` error.
-- **Reddit** rate-limits bursts (requests are spaced 3 s apart) and may block
-  datacenter IPs. Check `stats.reddit_*` after each run.
+- **Reddit** without OAuth returns HTTP 429 for most subreddits from GitHub
+  Actions IPs. See [Reddit credentials](#reddit-credentials).
 - Releases include pre-releases (e.g. `-rc` tags).
 
 ## Workflow
@@ -140,3 +141,18 @@ All times are ISO 8601 UTC.
 `.github/workflows/fetch.yml` runs on manual dispatch (`gh workflow run fetch`).
 The schedule is commented out until the pipeline is verified. It commits
 `data/` and `state/` as `github-actions[bot]` only when something changed.
+
+## Reddit credentials
+
+Reddit is read through application-only OAuth (`client_credentials`), which
+needs no Reddit password.
+
+1. Create an app at <https://www.reddit.com/prefs/apps>, type **script**
+   (redirect URI is required but unused, e.g. `http://localhost`).
+2. Add two repository secrets:
+   ```sh
+   gh secret set REDDIT_CLIENT_ID      # the id under the app name
+   gh secret set REDDIT_CLIENT_SECRET  # "secret"
+   ```
+
+Without the secrets the adapter falls back to RSS.

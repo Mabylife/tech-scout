@@ -6,7 +6,7 @@
 // Discovery item shape (before cross-source merging):
 //   { title, url, description, published_at, tags, source: { name, score, comments, discussion_url } }
 
-import { getJson, getText, sleep } from '../http.js';
+import { get, getJson, getText, sleep } from '../http.js';
 import { fetchFeed, parseFeed } from '../feed.js';
 import { isAfter, stripHtml, toIso, truncate } from '../util.js';
 
@@ -113,14 +113,65 @@ function redditExternalUrl(html) {
   return /^https?:\/\/(www\.|old\.)?reddit\.com\//.test(url) ? null : url;
 }
 
+// Application-only OAuth (client_credentials): needs only the app's id and
+// secret, no Reddit password. Unauthenticated requests from GitHub Actions
+// IPs get HTTP 429 on most subreddits.
+async function redditToken() {
+  const id = process.env.REDDIT_CLIENT_ID;
+  const secret = process.env.REDDIT_CLIENT_SECRET;
+  if (!id || !secret) return null;
+  const res = await get('https://www.reddit.com/api/v1/access_token', {
+    method: 'POST',
+    headers: {
+      Authorization: `Basic ${Buffer.from(`${id}:${secret}`).toString('base64')}`,
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: 'grant_type=client_credentials',
+  });
+  const j = await res.json();
+  if (!j.access_token) throw new Error(`token request failed: ${j.error ?? 'no access_token'}`);
+  return j.access_token;
+}
+
+async function redditViaApi(src, sub, key, token) {
+  const url = `https://oauth.reddit.com/r/${sub}/top?t=week&limit=${src.top_n}&raw_json=1`;
+  const j = await getJson(url, { headers: { Authorization: `Bearer ${token}` } });
+  const posts = j.data.children.map((c) => c.data).filter((p) => !p.stickied);
+  const items = posts.slice(0, src.top_n).map((p) => {
+    const discussion = `https://www.reddit.com${p.permalink}`;
+    const external = !p.is_self && !/^https?:\/\/(www\.|old\.|i\.|v\.)?redd(it\.com|\.it)\//.test(p.url);
+    return {
+      title: p.title,
+      url: external ? p.url : discussion,
+      description: truncate(p.selftext ?? '', DESC_MAX),
+      published_at: toIso(p.created_utc),
+      tags: [`reddit:${sub}`, ...(p.link_flair_text ? [`flair:${p.link_flair_text}`] : [])],
+      source: { name: key, score: p.score, comments: p.num_comments, discussion_url: discussion },
+    };
+  });
+  return { fetched: posts.length, items };
+}
+
 export async function reddit(src) {
+  let token = null;
+  let tokenError = null;
+  try {
+    token = await redditToken();
+  } catch (err) {
+    tokenError = err.message;
+  }
   const parts = [];
   for (const [i, sub] of src.subs.entries()) {
-    // Reddit rate-limits bursts of unauthenticated requests (HTTP 429).
-    if (i > 0) await sleep(src.delay_ms ?? 3000);
+    // Unauthenticated requests are rate-limited hard (HTTP 429); space them out.
+    if (i > 0 && !token) await sleep(src.delay_ms ?? 3000);
     const key = `${src.id}_${sub}`;
+    if (token) {
+      parts.push(await part(key, () => redditViaApi(src, sub, key, token)));
+      continue;
+    }
     parts.push(
       await part(key, async () => {
+        if (tokenError) throw new Error(`OAuth: ${tokenError}`);
         const entries = parseFeed(await getText(`https://www.reddit.com/r/${sub}/top.rss?t=week&limit=${src.top_n}`));
         const items = entries.slice(0, src.top_n).map((e) => {
           const external = redditExternalUrl(e.content);

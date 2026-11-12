@@ -28,11 +28,13 @@ const MAX_RETRY_WAIT_MS = 30_000;
 
 // One retry on network errors, timeouts, 429 and 5xx. 4xx other than 429
 // (e.g. Reddit's 403 for datacenter IPs) fails immediately.
-export async function get(url, { headers = {}, timeoutMs = DEFAULT_TIMEOUT_MS, retries = 1 } = {}) {
+export async function get(url, { headers = {}, timeoutMs = DEFAULT_TIMEOUT_MS, retries = 1, method = 'GET', body } = {}) {
   for (let attempt = 0; ; attempt++) {
     let res;
     try {
       res = await fetch(url, {
+        method,
+        body,
         headers: { 'User-Agent': userAgent, ...headers },
         redirect: 'follow',
         signal: AbortSignal.timeout(timeoutMs),
