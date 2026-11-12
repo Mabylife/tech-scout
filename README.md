@@ -24,7 +24,6 @@ npm ci
 node scripts/fetch.js
 ```
 
-Set `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` to use the Reddit API (see below).
 Set `GITHUB_TOKEN` to raise the GitHub Search rate limit (otherwise the script
 waits 7 s between topic queries).
 
@@ -34,6 +33,9 @@ waits 7 s between topic queries).
 | --- | --- |
 | `sources.json` | Source list and filter thresholds. Edit this to tune. |
 | `scripts/fetch.js` | Entry point. |
+| `scripts/fetch-reddit.js` | Reddit fetch for the home machine; writes `inbox/reddit.json`. |
+| `scripts/rog/` | Windows Task Scheduler setup and runner for `fetch-reddit.js`. |
+| `inbox/reddit.json` | Reddit results pushed by the home machine. |
 | `scripts/lib/adapters/discovery.js` | Discovery sources (HN, lobste.rs, GitHub, Reddit, feeds, MCP registry). |
 | `scripts/lib/adapters/tracking.js` | Tracking sources (releases, news feeds, snapshot diffs). |
 | `scripts/lib/{http,feed,util}.js` | Fetch wrapper, RSS/Atom parser, URL normalization. |
@@ -41,7 +43,7 @@ waits 7 s between topic queries).
 | `state/seen.json` | IDs already emitted, with first-seen time. Pruned after `seen_retention_days`. |
 | `state/snapshots/` | Previous lists for snapshot-diff sources. |
 | `data/latest.json` | Output of the latest run. |
-| `data/index.json` | Compact view of `latest.json` (id, title, sources with scores), one item per line. Read this first, then look up details by `id`. |
+| `data/index.json` | Compact view of `latest.json` (id, title, sources with scores), one item per line, plus source errors and the list of archived runs. Read this first, then look up details by `id`. |
 | `data/runs/` | Output archive, last `runs_to_keep` runs. |
 
 ## How it works
@@ -102,7 +104,8 @@ All times are ISO 8601 UTC.
 
 `data/index.json` holds the same items with only `id`, `title` and `src`
 (e.g. `"hn_top:264 lobsters_hottest:30"`) for discovery, `id`, `project` and
-`version` for tracking, plus a list of source errors. It is about a quarter of
+`version` for tracking, plus a list of source errors and `runs`, the archived
+run files (a reader that cannot list `data/runs/` uses it to catch up). It is about a quarter of
 the size of `latest.json`, so a reader can scan everything cheaply and fetch
 details only for the items it cares about:
 
