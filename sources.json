@@ -34,6 +34,7 @@
     {
       "id": "reddit",
       "type": "reddit",
+      "via": "inbox",
       "subs": ["unixporn", "archlinux", "hyprland", "vuejs", "selfhosted", "ClaudeAI", "LocalLLaMA", "iphone", "apple"],
       "top_n": 15
     },

@@ -6,6 +6,7 @@
 // Discovery item shape (before cross-source merging):
 //   { title, url, description, published_at, tags, source: { name, score, comments, discussion_url } }
 
+import { readFile } from 'node:fs/promises';
 import { get, getJson, getText, sleep } from '../http.js';
 import { fetchFeed, parseFeed } from '../feed.js';
 import { isAfter, stripHtml, toIso, truncate } from '../util.js';
@@ -152,7 +153,30 @@ async function redditViaApi(src, sub, key, token) {
   return { fetched: posts.length, items };
 }
 
-export async function reddit(src) {
+// With `via: "inbox"`, GitHub Actions does not call Reddit at all (its IPs get
+// HTTP 429). Instead it reads inbox/reddit.json, written by a machine on a home
+// connection (scripts/fetch-reddit.js, scheduled on ROG Windows).
+export const REDDIT_INBOX = new URL('../../../inbox/reddit.json', import.meta.url);
+
+async function redditFromInbox(src, { since }) {
+  let inbox;
+  try {
+    inbox = JSON.parse(await readFile(REDDIT_INBOX, 'utf8'));
+  } catch (err) {
+    return [{ key: src.id, fetched: 0, items: [], error: `inbox/reddit.json unreadable: ${err.message}` }];
+  }
+  if (!inbox.fetched_at || inbox.fetched_at < since) {
+    return [{ key: src.id, fetched: 0, items: [], error: `inbox not updated since last run (last fetched ${inbox.fetched_at ?? 'never'})` }];
+  }
+  return inbox.parts.map((p) => ({ ...p, note: `via inbox, fetched ${inbox.fetched_at}` }));
+}
+
+export async function reddit(src, ctx = {}) {
+  if (src.via === 'inbox') return redditFromInbox(src, ctx);
+  return redditDirect(src);
+}
+
+export async function redditDirect(src) {
   let token = null;
   let tokenError = null;
   try {

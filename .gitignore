@@ -1,3 +1,4 @@
 node_modules/
 # Private planning notes, not for the public repo.
 tech-scout-*.md
+inbox/*.log

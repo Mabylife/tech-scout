@@ -120,7 +120,7 @@ jq '.discovery[] | select(.id == "<id>")' data/latest.json
 | `hn_top` | HN Algolia, `tags=story` | points ≥ 100 |
 | `lobsters_*` | `lobste.rs/{hottest,newest,t/…}.json` | score ≥ 5 |
 | `github_*` | GitHub Search, one query per topic | stars ≥ 20, created within 30 days, top 30 |
-| `reddit_*` | `oauth.reddit.com/r/{sub}/top?t=week` (falls back to `top.rss` without credentials) | top 15, stickied posts removed |
+| `reddit_*` | Read from `inbox/reddit.json` (see [Reddit](#reddit)) | top 15 per subreddit |
 | `aur_new` | `aur.archlinux.org/rss/` | none (feed holds only the latest 100) |
 | `simonw` | `simonwillison.net/atom/everything/` | none |
 | `mcp_registry` | `registry.modelcontextprotocol.io/v0/servers` | **disabled**, see below |
@@ -143,8 +143,8 @@ jq '.discovery[] | select(.id == "<id>")' data/latest.json
   (servers first seen after the baseline).
 - **Telegram** and **Anthropic** are HTML scrapes and will break if the page
   markup changes; the adapter then reports a `page structure changed` error.
-- **Reddit** without OAuth returns HTTP 429 for most subreddits from GitHub
-  Actions IPs. See [Reddit credentials](#reddit-credentials).
+- **Reddit** is fetched from a home machine, not from Actions. If that machine
+  misses a run, `stats.reddit` reports `inbox not updated`.
 - Releases include pre-releases (e.g. `-rc` tags).
 
 ## Workflow
@@ -153,17 +153,37 @@ jq '.discovery[] | select(.id == "<id>")' data/latest.json
 and on manual dispatch (`gh workflow run fetch`). It commits
 `data/` and `state/` as `github-actions[bot]` only when something changed.
 
-## Reddit credentials
+## Reddit
 
-Reddit is read through application-only OAuth (`client_credentials`), which
-needs no Reddit password.
+GitHub Actions IPs get HTTP 429 from Reddit on most subreddits, and Reddit
+declined API access for this project. So the `reddit` source has
+`"via": "inbox"`: Actions only reads `inbox/reddit.json`, and an always-on
+home machine writes it.
 
-1. Create an app at <https://www.reddit.com/prefs/apps>, type **script**
-   (redirect URI is required but unused, e.g. `http://localhost`).
-2. Add two repository secrets:
-   ```sh
-   gh secret set REDDIT_CLIENT_ID      # the id under the app name
-   gh secret set REDDIT_CLIENT_SECRET  # "secret"
-   ```
+```
+home machine, Mon/Thu 05:30 Asia/Taipei
+  git pull -> node scripts/fetch-reddit.js -> commit inbox/reddit.json -> push
+GitHub Actions, 06:00
+  fetch.js reads inbox/reddit.json if it is newer than the previous run
+```
 
-Without the secrets the adapter falls back to RSS.
+`scripts/fetch-reddit.js` uses the public `top.rss` feeds with 3 s between
+subreddits. If `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` are set it uses
+application-only OAuth instead.
+
+### Windows setup (once)
+
+Requires PowerShell 7, Node 24 and git.
+
+```powershell
+git clone https://github.com/Mabylife/tech-scout.git D:\GitHub\tech-scout
+cd D:\GitHub\tech-scout
+npm ci
+pwsh -File scripts/rog/setup-task.ps1
+Start-ScheduledTask -TaskName 'tech-scout reddit'
+```
+
+`setup-task.ps1` asks for a fine-grained token limited to this repository
+(Contents: read and write) and stores it under a separate git username, then
+registers the scheduled task with "wake to run". The log is
+`inbox/rog-run.log`. Wake timers must be allowed in the Windows power plan.
