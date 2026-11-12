@@ -1,0 +1,46 @@
+name: fetch
+
+on:
+  workflow_dispatch:
+  # Schedule is disabled until the pipeline is verified end to end.
+  # GitHub cron is UTC and may run tens of minutes late.
+  # schedule:
+  #   - cron: '0 12 * * 1,4'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch sources
+        run: node scripts/fetch.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data state
+          if git diff --cached --quiet; then
+            echo 'No changes.'
+            exit 0
+          fi
+          git commit -m "data: fetch $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

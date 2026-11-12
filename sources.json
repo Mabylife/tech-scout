@@ -1,0 +1,107 @@
+{
+  "user_agent": "tech-scout/1.0 (+https://github.com/Mabylife/tech-scout)",
+  "first_run_lookback_days": 7,
+  "seen_retention_days": 120,
+  "runs_to_keep": 30,
+
+  "discovery": [
+    {
+      "id": "hn_show",
+      "type": "hn",
+      "tags": "show_hn",
+      "min_points": 30
+    },
+    {
+      "id": "hn_top",
+      "type": "hn",
+      "tags": "story",
+      "min_points": 100
+    },
+    {
+      "id": "lobsters",
+      "type": "lobsters",
+      "lists": ["hottest", "newest", "t/linux", "t/web", "t/javascript", "t/ai", "t/programming"],
+      "min_score": 5
+    },
+    {
+      "id": "github",
+      "type": "github_search",
+      "topics": ["wayland", "hyprland", "quickshell", "tauri", "vue", "threejs", "voxel", "mcp-server", "claude-code", "ai-agents", "llm", "ime"],
+      "min_stars": 20,
+      "max_age_days": 30,
+      "per_topic": 30
+    },
+    {
+      "id": "reddit",
+      "type": "reddit",
+      "subs": ["unixporn", "archlinux", "hyprland", "vuejs", "selfhosted", "ClaudeAI", "LocalLLaMA", "iphone", "apple"],
+      "top_n": 15
+    },
+    {
+      "id": "aur_new",
+      "type": "feed",
+      "url": "https://aur.archlinux.org/rss/"
+    },
+    {
+      "id": "simonw",
+      "type": "feed",
+      "url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "id": "mcp_registry",
+      "type": "mcp_registry",
+      "enabled": false,
+      "max_items": 50
+    }
+  ],
+
+  "tracking": [
+    {
+      "id": "releases",
+      "type": "github_releases",
+      "repos": [
+        "hyprwm/Hyprland",
+        "quickshell-mirror/quickshell",
+        "Alexays/Waybar",
+        "abenz1267/walker",
+        "vuejs/core",
+        "vitejs/vite",
+        "vuejs/pinia",
+        "tauri-apps/tauri",
+        "mrdoob/three.js",
+        "anthropics/claude-code",
+        "mangowm/mango"
+      ]
+    },
+    {
+      "id": "arch_news",
+      "type": "feed",
+      "project": "Arch Linux News",
+      "url": "https://archlinux.org/feeds/news/"
+    },
+    {
+      "id": "vue_blog",
+      "type": "feed",
+      "project": "Vue blog",
+      "url": "https://blog.vuejs.org/feed.rss"
+    },
+    {
+      "id": "figma_releases",
+      "type": "feed",
+      "project": "Figma release notes",
+      "url": "https://www.figma.com/release-notes/feed/atom.xml"
+    },
+    {
+      "id": "openrouter_models",
+      "type": "openrouter"
+    },
+    {
+      "id": "telegram_bot_api",
+      "type": "telegram_changelog"
+    },
+    {
+      "id": "anthropic_news",
+      "type": "anthropic_news"
+    }
+  ]
+}

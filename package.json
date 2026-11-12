@@ -1,0 +1,17 @@
+{
+  "name": "tech-scout",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fetches and pre-filters tech news, releases and new projects for a scheduled Claude recommendation task.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "fetch": "node scripts/fetch.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^5.12.0"
+  }
+}
