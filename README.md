@@ -149,8 +149,8 @@ jq '.discovery[] | select(.id == "<id>")' data/latest.json
 
 ## Workflow
 
-`.github/workflows/fetch.yml` runs on manual dispatch (`gh workflow run fetch`).
-The schedule is commented out until the pipeline is verified. It commits
+`.github/workflows/fetch.yml` runs Mon/Thu 06:00 Asia/Taipei (`0 22 * * 0,3` UTC)
+and on manual dispatch (`gh workflow run fetch`). It commits
 `data/` and `state/` as `github-actions[bot]` only when something changed.
 
 ## Reddit credentials
