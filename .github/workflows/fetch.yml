@@ -3,9 +3,10 @@ name: fetch
 on:
   workflow_dispatch:
   # Schedule is disabled until the pipeline is verified end to end.
-  # GitHub cron is UTC and may run tens of minutes late.
+  # Mon/Thu 06:00 Asia/Taipei = Sun/Wed 22:00 UTC. GitHub cron is UTC
+  # and may run tens of minutes late.
   # schedule:
-  #   - cron: '0 12 * * 1,4'
+  #   - cron: '0 22 * * 0,3'
 
 permissions:
   contents: write
